@@ -1,4 +1,4 @@
-import type { EChartsOption, RegisteredSeriesOption } from "echarts";
+import type { RegisteredSeriesOption } from "echarts";
 import type { SeriesLabelOption } from "echarts/types/src/util/types";
 import type {
   SeriesModel,
@@ -119,7 +119,7 @@ export const buildEChartsSeries = (
   chartModel: CartesianChartModel,
   settings: ComputedVisualizationSettings,
   renderingContext: RenderingContext,
-): EChartsOption["series"] => {
+): (RegisteredSeriesOption["line"] | RegisteredSeriesOption["bar"])[] => {
   return chartModel.seriesModels
     .map(seriesModel => {
       const seriesSettings: SeriesSettings = settings.series(
