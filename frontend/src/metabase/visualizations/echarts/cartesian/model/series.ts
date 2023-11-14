@@ -109,8 +109,9 @@ export const getCardSeriesModels = (
         false,
         card.name,
       );
-      const legacySeriesSettingsObjectKey =
-        createLegacySeriesObjectKey(vizSettingsKey);
+      const legacySeriesSettingsObjectKey = createLegacySeriesObjectKey(
+        metric.column.name, // <- changed this from vizSettingsKey for debugging, do not merge to master
+      );
 
       const name =
         settings[SERIES_SETTING_KEY]?.[vizSettingsKey]?.title ??
@@ -156,8 +157,9 @@ export const getCardSeriesModels = (
       true,
       card.name,
     );
-    const legacySeriesSettingsObjectKey =
-      createLegacySeriesObjectKey(vizSettingsKey);
+    const legacySeriesSettingsObjectKey = createLegacySeriesObjectKey(
+      metric.column.name,
+    );
 
     const name =
       settings.series_settings?.[vizSettingsKey]?.title ??
