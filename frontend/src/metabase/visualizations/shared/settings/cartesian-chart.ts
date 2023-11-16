@@ -1,6 +1,11 @@
 import _ from "underscore";
 import type { ComputedVisualizationSettings } from "metabase/visualizations/types";
-import type { Card, SeriesOrderSetting } from "metabase-types/api";
+import type {
+  Card,
+  DatasetColumn,
+  SeriesOrderSetting,
+} from "metabase-types/api";
+import { getFriendlyName } from "metabase/visualizations/lib/utils";
 
 export const getDefaultStackingValue = (
   settings: ComputedVisualizationSettings,
@@ -72,3 +77,22 @@ export const getSeriesOrderVisibilitySettings = (
     color: seriesColors[item.key],
   }));
 };
+
+export const getDefaultYAxisTitle = (metricNames: string[]) => {
+  const metricsCount = new Set(metricNames).size;
+  return metricsCount === 1 ? metricNames[0] : null;
+};
+
+export const getIsYAxisLabelEnabledDefault = () => true;
+
+export const getDefaultXAxisTitle = (
+  dimensionColumn: DatasetColumn | undefined,
+) => {
+  if (!dimensionColumn) {
+    return null;
+  }
+
+  return getFriendlyName(dimensionColumn);
+};
+
+export const getIsXAxisLabelEnabledDefault = () => true;

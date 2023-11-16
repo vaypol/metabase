@@ -17,12 +17,17 @@ import {
 import { getCommonStaticVizSettings } from "metabase/static-viz/lib/settings";
 import {
   getDefaultStackingValue,
+  getDefaultXAxisTitle,
+  getDefaultYAxisTitle,
+  getIsXAxisLabelEnabledDefault,
+  getIsYAxisLabelEnabledDefault,
   getSeriesOrderVisibilitySettings,
 } from "metabase/visualizations/shared/settings/cartesian-chart";
 import {
   getCardsColumns,
   getCardsSeries,
 } from "metabase/visualizations/echarts/cartesian/model";
+import { getDimensionModel } from "metabase/visualizations/echarts/cartesian/model/series";
 
 const fillWithDefaultValue = (
   settings: Record<string, unknown>,
@@ -90,6 +95,7 @@ export const computeStaticComboChartSettings = (
   const settings = getCommonStaticVizSettings(rawSeries, dashcardSettings);
 
   const cardsColumns = getCardsColumns(rawSeries, settings);
+  const dimensionModel = getDimensionModel(rawSeries, cardsColumns);
   const seriesModels = getCardsSeries(
     rawSeries,
     cardsColumns,
@@ -125,6 +131,36 @@ export const computeStaticComboChartSettings = (
       seriesModels.map(seriesModel => seriesModel.vizSettingsKey),
     ),
   );
+
+  fillWithDefaultValue(
+    settings,
+    "graph.y_axis.title_text",
+    getDefaultYAxisTitle(
+      seriesModels.map(seriesModel => seriesModel.column.display_name),
+    ),
+  );
+
+  fillWithDefaultValue(
+    settings,
+    "graph.y_axis.labels_enabled",
+    getIsYAxisLabelEnabledDefault(),
+  );
+
+  fillWithDefaultValue(
+    settings,
+    "graph.x_axis.labels_enabled",
+    getIsXAxisLabelEnabledDefault(),
+  );
+
+  fillWithDefaultValue(
+    settings,
+    "graph.x_axis.title_text",
+    getDefaultXAxisTitle(dimensionModel.column),
+  );
+
+  fillWithDefaultValue(settings, "graph.x_axis.axis_enabled", true);
+
+  fillWithDefaultValue(settings, "graph.y_axis.axis_enabled", true);
 
   return settings;
 };
