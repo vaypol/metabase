@@ -27,7 +27,6 @@ export function openNativeEditor({
   alias = "editor",
   fromCurrentPage,
 } = {}) {
-  cy.intercept("GET", "/api/database").as("getDatabaseList");
   if (!fromCurrentPage) {
     cy.visit("/");
   }
@@ -35,8 +34,6 @@ export function openNativeEditor({
   cy.findByText("SQL query").click();
 
   cy.url().should("include", "/question");
-
-  cy.wait("@getDatabaseList");
 
   databaseName && cy.findByText(databaseName).click();
 
