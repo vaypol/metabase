@@ -48,13 +48,11 @@ describe("issue 12926", () => {
         cy.visit(`/dashboard/${dashboard_id}`);
       });
 
-      cy.window().then(win => {
-        cy.spy(win.XMLHttpRequest.prototype, "abort").as("xhrAbort");
-      });
+      setupAbortSpy();
 
       removeCard();
 
-      cy.get("@xhrAbort").should("have.been.calledOnce");
+      cy.get("@fetchAbort").should("have.been.calledOnce");
     });
 
     it("should re-fetch the query when doing undo on the removal", () => {
@@ -113,16 +111,14 @@ describe("issue 12926", () => {
       popover().findByPlaceholderText("Enter a number").type(parameterValue);
       popover().findByText("Add filter").click();
 
-      cy.window().then(win => {
-        cy.spy(win.XMLHttpRequest.prototype, "abort").as("xhrAbort");
-      });
+      setupAbortSpy();
 
       getDashboardCard().findByText("Select…").click();
       popover().contains(filterDisplayName).eq(0).click();
 
       saveDashboard();
 
-      cy.get("@xhrAbort").should("have.been.calledOnce");
+      cy.get("@fetchAbort").should("have.been.calledOnce");
 
       getDashboardCard().findByText(queryResult + parameterValue);
     });
@@ -160,4 +156,10 @@ function removeCard() {
   cy.findByTestId("dashboardcard-actions-panel")
     .findByLabelText("close icon")
     .click();
+}
+
+function setupAbortSpy() {
+  cy.window().then(win => {
+    cy.spy(win.AbortController.prototype, "abort").as("fetchAbort");
+  });
 }
