@@ -1,5 +1,4 @@
 import { modal } from "e2e/support/helpers/e2e-ui-elements-helpers";
-
 // Find a text field by label text, type it in, then blur the field.
 // Commonly used in our Admin section as we auto-save settings.
 export function typeAndBlurUsingLabel(label, value) {
@@ -28,15 +27,24 @@ export function openNativeEditor({
   alias = "editor",
   fromCurrentPage,
 } = {}) {
+  cy.intercept("GET", "/api/database").as("getDatabaseList");
   if (!fromCurrentPage) {
     cy.visit("/");
   }
   cy.findByText("New").click();
   cy.findByText("SQL query").click();
 
+  cy.url().should("include", "/question");
+
+  cy.wait("@getDatabaseList");
+
   databaseName && cy.findByText(databaseName).click();
 
-  return cy.findByTestId("native-query-editor").as(alias).should("be.visible");
+  return cy
+    .findByTestId("native-query-editor")
+    .as(alias)
+    .should("be.visible")
+    .click();
 }
 
 /**
