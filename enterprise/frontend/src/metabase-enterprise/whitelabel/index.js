@@ -28,6 +28,7 @@ import {
 } from "./lib/whitelabel";
 import { getLoadingMessageOptions } from "./lib/loading-message";
 import { HelpLinkRadio } from "./components/HelpLinkSettings";
+import { HelpLinkCustomDestinationWidget } from "./components/HelpLinkCustomDestinationWidget";
 
 if (hasPremiumFeature("whitelabel")) {
   PLUGIN_LANDING_PAGE.push(() => MetabaseSettings.get("landing-page"));
@@ -102,6 +103,7 @@ if (hasPremiumFeature("whitelabel")) {
           getHidden: settings => {
             return settings["help-link"] !== "custom";
           },
+          widget: HelpLinkCustomDestinationWidget,
         },
         {
           key: "show-metabot",

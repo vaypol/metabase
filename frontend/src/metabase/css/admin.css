@@ -223,6 +223,14 @@
   color: white !important;
 }
 
+.SaveStatusContainer {
+  z-index: 123;
+  text-align: right;
+  position: fixed;
+  right: 10px;
+  top: 100px;
+  background: rgba(255, 255, 255, 0.8);
+}
 .SaveStatus {
   line-height: 1;
 }

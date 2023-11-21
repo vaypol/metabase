@@ -121,11 +121,36 @@
   :audit      :getter
   :visibility :public)
 
+;; TODO: add mailto: case
+(defn- normalize-help-link [^String s]
+  (let [ ;; remove trailing slashes
+        s (str/replace s #"/$" "")
+        ;; add protocol if missing
+        s (if (str/starts-with? s "http")
+            s
+            (str "http://" s))]
+    ;; check that the URL is valid
+    (when-not (u/url? s)
+      (throw (ex-info (tru "Invalid help link destination: {0}" (pr-str s)) {:url (pr-str s)})))
+    s))
+
+
 (defsetting help-link-custom-destination
   (deferred-tru "TODO")
   :type       :string
   :visibility :public
-  :audit      :getter)
+  :audit      :getter
+  ;; TODO: I think this is used for validating ENV
+  ;; :getter     (fn []
+  ;;               (try
+  ;;                 (some-> (setting/get-value-of-type :string :site-url) normalize-help-link)
+  ;;                 (catch clojure.lang.ExceptionInfo e
+  ;;                   (log/error e (trs "help-link-custom-destination is invalid; returning nil for now. Will be reset on next request.")))))
+  :setter     (fn [new-value]
+                (let [new-value (some-> new-value normalize-help-link)
+                      https?    (some-> new-value (str/starts-with?  "https:"))]))
+
+  )
 
 (defsetting dismissed-custom-dashboard-toast
   (deferred-tru "Toggle which is true after a user has dismissed the custom dashboard toast.")

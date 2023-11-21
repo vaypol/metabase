@@ -47,21 +47,27 @@ export default class SaveStatus extends Component {
   render() {
     if (this.state.saving) {
       return (
-        <div className="SaveStatus mx2 px2 border-right">
-          <LoadingSpinner size={24} />
+        <div className="SaveStatusContainer">
+          <div className="SaveStatus mx2 px2 border-right">
+            <LoadingSpinner size={24} />
+          </div>
         </div>
       );
     } else if (this.state.error) {
       return (
-        <div className="SaveStatus mx2 px2 border-right text-error">
-          {t`Error:`} {String(this.state.error.message || this.state.error)}
+        <div className="SaveStatusContainer">
+          <div className="SaveStatus mx2 px2 border-right text-error">
+            {t`Error:`} {String(this.state.error.message || this.state.error)}
+          </div>
         </div>
       );
     } else if (this.state.recentlySavedTimeout != null) {
       return (
-        <div className="SaveStatus mx2 px2 border-right flex align-center text-success">
-          <Icon name="check" size={16} />
-          <div className="ml1 h3 text-bold">{t`Saved`}</div>
+        <div className="SaveStatusContainer">
+          <div className="SaveStatus mx2 px2 border-right flex align-center text-success">
+            <Icon name="check" size={16} />
+            <div className="ml1 h3 text-bold">{t`Saved`}</div>
+          </div>
         </div>
       );
     } else {
