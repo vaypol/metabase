@@ -3,6 +3,7 @@
    [clojure.string :as str]
    [clojure.test :refer :all]
    [java-time.api :as t]
+   [metabase.driver :as driver]
    [metabase.query-processor :as qp]
    [metabase.query-processor.middleware.optimize-temporal-filters
     :as optimize-temporal-filters]
@@ -299,19 +300,24 @@
 (deftest ^:parallel optimize-relative-datetimes-e2e-test
   (testing "Should optimize relative-datetime clauses (#11837)"
     (mt/dataset attempted-murders
-      (is (= (str "SELECT COUNT(*) AS \"count\" "
-                  "FROM \"PUBLIC\".\"ATTEMPTS\" "
-                  "WHERE"
-                  " (\"PUBLIC\".\"ATTEMPTS\".\"DATETIME\""
-                  " >= DATE_TRUNC('month', DATEADD('month', CAST(-1 AS long), CAST(NOW() AS datetime))))"
-                  " AND"
-                  " (\"PUBLIC\".\"ATTEMPTS\".\"DATETIME\""
-                  " < DATE_TRUNC('month', NOW()))")
-             (:query
-              (qp/compile
-               (mt/mbql-query attempts
-                 {:aggregation [[:count]]
-                  :filter      [:time-interval $datetime :last :month]}))))))))
+      (is (= ["SELECT"
+              "  COUNT(*) AS \"count\""
+              "FROM"
+              "  \"PUBLIC\".\"ATTEMPTS\""
+              "WHERE"
+              "  ("
+              "    \"PUBLIC\".\"ATTEMPTS\".\"DATETIME\" >= DATE_TRUNC('month', DATEADD('month', -1, NOW()))"
+              "  )"
+              "  AND ("
+              "    \"PUBLIC\".\"ATTEMPTS\".\"DATETIME\" < DATE_TRUNC('month', NOW())"
+              "  )"]
+             (->> (qp/compile
+                   (mt/mbql-query attempts
+                     {:aggregation [[:count]]
+                      :filter      [:time-interval $datetime :last :month]}))
+                  :query
+                  (driver/prettify-native-form :h2)
+                  str/split-lines))))))
 
 (deftest ^:parallel flatten-filters-test
   (testing "Should flatten the `:filter` clause after optimizing"
@@ -354,10 +360,10 @@
     (is (= [:and
             [:>=
              [:field 1 {:temporal-unit :default}]
-             [:relative-datetime -9 :month]]
+             [:relative-datetime -15 :month]]
             [:<
              [:field 1 {:temporal-unit :default}]
-             [:relative-datetime 4 :month]]]
+             [:relative-datetime -2 :month]]]
            (#'optimize-temporal-filters/optimize
             [:between
              [:+ [:field 1 {:temporal-unit :month}] [:interval 3 :month]]
@@ -410,18 +416,21 @@
                (#'optimize-temporal-filters/optimize clause)))))))
 
 (deftest ^:parallel optimize-relative-datetimes-test
-  (is (= [:and
-          [:>=
-           [:field 1 {:base-type :type/DateTime}]
-           [:relative-datetime -3 :month]]
-          [:<
-           [:field 1 {:base-type :type/DateTime}]
-           [:relative-datetime -1 :month]]]
-         (#'optimize-temporal-filters/optimize
-          [:between
-           [:+ [:field 1 {:base-type :type/DateTime}] [:interval -2 :month]]
-           [:relative-datetime -1 :month]
-           [:relative-datetime 0 :month]]))))
+  (are [field] (= [:and
+                   [:>=
+                    [:field 1 {:base-type :type/DateTime, :temporal-unit :default}]
+                    [:relative-datetime -3 :month]]
+                   [:<
+                    [:field 1 {:base-type :type/DateTime, :temporal-unit :default}]
+                    [:relative-datetime -1 :month]]]
+                  (#'optimize-temporal-filters/optimize
+                   [:between
+                    [:+ field [:interval 2 :month]]
+                    [:relative-datetime -1 :month]
+                    [:relative-datetime 0 :month]]))
+    [:field 1 {:base-type :type/DateTime}]
+    [:field 1 {:base-type :type/DateTime, :temporal-unit :month}]
+    [:field 1 {:base-type :type/DateTime, :temporal-unit :default}]))
 
 (deftest ^:parallel optimize-plus-expressions-relative-datetimes-test
   (are [clause expected] (= expected

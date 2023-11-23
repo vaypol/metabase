@@ -69,6 +69,11 @@
   [[_tag & args]]
   (some temporal-unit args))
 
+(defn- non-default-temporal-unit [x]
+  (when-let [unit (temporal-unit x)]
+    (when-not (= unit :default)
+      unit)))
+
 (mu/defn ^:private temporal-literal-lower-bound
   [unit t :- (ms/InstanceOfClass java.time.temporal.Temporal)]
   (:start (u.date/range t unit)))
@@ -79,7 +84,7 @@
 
 (defn- change-temporal-unit-to-default [expression]
   (mbql.u/replace expression
-    [:field _id-or-name (_opts :guard (comp optimizable-units :temporal-unit))]
+    :field
     (mbql.u/update-field-options &match assoc :temporal-unit :default)))
 
 (defmulti ^:private temporal-value-lower-bound
@@ -158,7 +163,10 @@
    y :- some?]
   (let [{:keys [tag non-interval intervals]} (group-temporal-arithmetic-args x)]
     {:x non-interval
-     :y (optimize (into [tag y] intervals))}))
+     :y (optimize (into [tag y]
+                        (map (fn [[_interval n unit]]
+                               [:interval (- n) unit]))
+                        intervals))}))
 
 (mu/defn ^:private temporal-category :- [:maybe [:enum ::ref ::literal ::arithmetic-wrapping-ref ::arithmetic-wrapping-literal]]
   [x]
@@ -181,8 +189,8 @@
         y (optimize y)]
     (or (case [(temporal-category x) (temporal-category y)]
           [::ref ::literal]
-          (let [x-unit (temporal-unit x)
-                y-unit (temporal-unit y)
+          (let [x-unit (non-default-temporal-unit x)
+                y-unit (non-default-temporal-unit y)
                 unit   (or x-unit y-unit)]
             (when (and unit
                        (optimizable-units unit)
@@ -214,8 +222,8 @@
     (or
      (case [(temporal-category x) (temporal-category y)]
        [::ref ::literal]
-       (let [x-unit (temporal-unit x)
-             y-unit (temporal-unit y)
+       (let [x-unit (non-default-temporal-unit x)
+             y-unit (non-default-temporal-unit y)
              unit   (or x-unit y-unit)]
          (when (and unit
                     (optimizable-units unit)
@@ -262,17 +270,17 @@
         upper (optimize upper)]
     (or (case [(temporal-category x) (temporal-category lower) (temporal-category upper)]
           [::ref ::literal ::literal]
-          (let [x-unit     (temporal-unit x)
-                lower-unit (temporal-unit lower)
-                upper-unit (temporal-unit upper)
+          (let [x-unit     (non-default-temporal-unit x)
+                lower-unit (non-default-temporal-unit lower)
+                upper-unit (non-default-temporal-unit upper)
                 unit       (or x-unit lower-unit upper-unit)]
             (when (and unit
                        (optimizable-units unit)
                        (same-units-or-nil? [x-unit lower-unit upper-unit]))
               (let [x' (change-temporal-unit-to-default x)]
                 [:and
-                 [:>= x' (temporal-value-lower-bound lower (temporal-unit x))]
-                 [:<  x' (temporal-value-upper-bound upper (temporal-unit x))]])))
+                 [:>= x' (temporal-value-lower-bound lower unit)]
+                 [:<  x' (temporal-value-upper-bound upper unit)]])))
 
           [::arithmetic-wrapping-ref ::literal ::literal]
           (let [{x' :x, lower' :y} (transfer-temporal-arithmetic-args x lower)
