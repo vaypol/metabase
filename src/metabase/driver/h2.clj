@@ -282,12 +282,14 @@
   ((get-method driver/execute-write-query! :sql-jdbc) driver query))
 
 (defn- dateadd [unit amount expr]
-  [:dateadd
-   (h2x/literal unit)
-   (if (number? amount)
-     (sql.qp/inline-num (long amount))
-     (h2x/cast :long amount))
-   (h2x/cast-unless-type-in "datetime" #{"datetime" "timestamp" "timestamp with time zone"} expr)])
+  (let [expr (h2x/cast-unless-type-in "datetime" #{"datetime" "timestamp" "timestamp with time zone"} expr)]
+    (-> [:dateadd
+         (h2x/literal unit)
+         (if (number? amount)
+           (sql.qp/inline-num (long amount))
+           (h2x/cast :long amount))
+         expr]
+        (h2x/with-database-type-info (h2x/database-type expr)))))
 
 (defmethod sql.qp/add-interval-honeysql-form :h2
   [driver hsql-form amount unit]
@@ -335,8 +337,8 @@
 ;;; +----------------------------------------------------------------------------------------------------------------+
 
 (defmethod sql.qp/current-datetime-honeysql-form :h2
-  [_]
-  (h2x/with-database-type-info :%now :TIMESTAMP))
+  [_driver]
+  (h2x/with-database-type-info :%now "timestamp"))
 
 (defn- add-to-1970 [expr unit-str]
   [:timestampadd

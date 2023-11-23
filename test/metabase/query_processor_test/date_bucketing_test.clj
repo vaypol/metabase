@@ -1133,7 +1133,7 @@
                      filter-value
                      expected-count))))))))))
 
-(deftest legacy-default-datetime-bucketing-test
+(deftest ^:parallel legacy-default-datetime-bucketing-test
   (testing (str ":type/Date or :type/DateTime fields that don't have `:temporal-unit` clauses should get default `:day` "
                 "bucketing for legacy reasons. See #9014")
     (is (= (str "SELECT COUNT(*) AS \"count\" "
@@ -1141,7 +1141,7 @@
                 "WHERE ("
                 "\"PUBLIC\".\"CHECKINS\".\"DATE\" >= CAST(NOW() AS date)) "
                 "AND "
-                "(\"PUBLIC\".\"CHECKINS\".\"DATE\" < CAST(DATEADD('day', CAST(1 AS long), CAST(NOW() AS datetime)) AS date)"
+                "(\"PUBLIC\".\"CHECKINS\".\"DATE\" < CAST(DATEADD('day', 1, NOW()) AS date)"
                 ")")
            (:query
             (qp/compile
@@ -1149,13 +1149,13 @@
                {:aggregation [[:count]]
                 :filter      [:= $date [:relative-datetime :current]]})))))))
 
-(deftest compile-time-interval-test
+(deftest ^:parallel compile-time-interval-test
   (testing "Make sure time-intervals work the way they're supposed to."
     (testing "[:time-interval $date -4 :month] should give us something like Oct 01 2020 - Feb 01 2021 if today is Feb 17 2021"
       (is (= (str "SELECT CHECKINS.DATE AS DATE "
                   "FROM CHECKINS "
                   "WHERE ("
-                  "CHECKINS.DATE >= DATE_TRUNC('month', DATEADD('month', CAST(-4 AS long), CAST(NOW() AS datetime))))"
+                  "CHECKINS.DATE >= DATE_TRUNC('month', DATEADD('month', -4, NOW())))"
                   " AND "
                   "(CHECKINS.DATE < DATE_TRUNC('month', NOW())) "
                   "GROUP BY CHECKINS.DATE "

@@ -18,6 +18,7 @@
    [metabase.query-processor.util.add-alias-info :as add]
    [metabase.test :as mt]
    [metabase.test.data.env :as tx.env]
+   [metabase.util.honey-sql-2 :as h2x]
    #_{:clj-kondo/ignore [:deprecated-namespace]}
    [metabase.util.honeysql-extensions :as hx]))
 
@@ -254,22 +255,26 @@
     (binding [hx/*honey-sql-version* 2]
       (with-redefs [driver/db-start-of-week   (constantly :monday)
                     setting/get-value-of-type (constantly :sunday)]
-        (is (= [:dateadd
-                (hx/literal "day")
-                (hx/with-database-type-info [:cast [:inline -1] [:raw "long"]] "long")
-                (hx/with-database-type-info
-                  [:cast
-                   [:week [:dateadd (hx/literal "day")
-                           (hx/with-database-type-info [:cast [:inline 1] [:raw "long"]] "long")
-                           (hx/with-database-type-info [:cast :created_at [:raw "datetime"]] "datetime")]]
-                   [:raw "datetime"]]
-                  "datetime")]
-               (sql.qp/adjust-start-of-week :h2 (partial hx/call :week) :created_at)))))
+        (is (= (-> (h2x/with-database-type-info
+                    [:dateadd
+                     (h2x/literal "day")
+                     [:inline -1]
+                     (h2x/with-database-type-info
+                      [:cast
+                       [:week (h2x/with-database-type-info
+                               [:dateadd (h2x/literal "day")
+                                [:inline 1]
+                                (h2x/with-database-type-info [:cast :created_at [:raw "datetime"]] "datetime")]
+                               "datetime")]
+                       [:raw "datetime"]]
+                      "datetime")]
+                    "datetime"))
+               (sql.qp/adjust-start-of-week :h2 (fn [x] [:week x]) :created_at)))))
     (testing "Do we skip the adjustment if offset = 0"
       (with-redefs [driver/db-start-of-week   (constantly :monday)
                     setting/get-value-of-type (constantly :monday)]
-        (is (= (hx/call :week :created_at)
-               (sql.qp/adjust-start-of-week :h2 (partial hx/call :week) :created_at)))))))
+        (is (= [:week :created_at]
+               (sql.qp/adjust-start-of-week :h2 (fn [x] [:week x]) :created_at)))))))
 
 (defn- query-on-dataset-with-nils
   [query]
@@ -429,7 +434,7 @@
                                      AND
                                      ((PRODUCTS__via__PRODUCT_ID.CATEGORY = ?) OR (PRODUCTS__via__PRODUCT_ID.CATEGORY = ?))
                                      AND
-                                     (ORDERS.CREATED_AT >= DATE_TRUNC ("year" DATEADD ("year" CAST (-2 AS long) CAST (NOW () AS datetime))))
+                                     (ORDERS.CREATED_AT >= DATE_TRUNC ("year" DATEADD ("year" -2 NOW ())))
                                      AND
                                      (ORDERS.CREATED_AT < DATE_TRUNC ("year" NOW ()))]}
                         AS source]
