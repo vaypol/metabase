@@ -10,6 +10,7 @@
    [clojure.string :as str]
    [clojure.test :refer :all]
    [mb.hawk.init]
+   [mb.hawk.parallel]
    [medley.core :as m]
    [metabase.db.connection :as mdb.connection]
    [metabase.driver :as driver]
@@ -581,6 +582,7 @@
   "Impl for `with-report-timezone-id`."
   [timezone-id thunk]
   {:pre [((some-fn nil? string?) timezone-id)]}
+  (mb.hawk.parallel/assert-test-is-not-parallel `with-report-timezone-id)
   ;; This will fail if the app DB isn't initialized yet. That's fine — there's no DBs to notify if the app DB isn't
   ;; set up.
   (try

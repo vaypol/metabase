@@ -22,6 +22,7 @@
      metabase.actions.test-util/with-actions-test-data-tables
      metabase.email-test/with-expected-messages
      metabase.email-test/with-fake-inbox
+     metabase.query-processor.test-util/with-report-timezone-id
      metabase.test.data.users/with-group
      metabase.test.data.users/with-group-for-user
      metabase.test.persistence/with-persistence-enabled
@@ -62,6 +63,7 @@
      metabase.test/with-non-admin-groups-no-root-collection-for-namespace-perms
      metabase.test/with-non-admin-groups-no-root-collection-perms
      metabase.test/with-persistence-enabled
+     metabase.test/with-report-timezone-id
      metabase.test/with-single-admin-user
      metabase.test/with-system-timezone-id
      metabase.test/with-temp!

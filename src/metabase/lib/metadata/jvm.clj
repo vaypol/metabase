@@ -21,6 +21,8 @@
    [toucan2.pipeline :as t2.pipeline]
    [toucan2.query :as t2.query]))
 
+(set! *warn-on-reflection* true)
+
 (defn- qualified-key? [k]
   (or (qualified-keyword? k)
       (str/includes? k ".")))
@@ -380,7 +382,12 @@
 
   pretty/PrettyPrintable
   (pretty [_this]
-    (list `->UncachedApplicationDatabaseMetadataProvider database-id)))
+    (list `->UncachedApplicationDatabaseMetadataProvider database-id))
+
+  Object
+  (equals [_this another]
+    (and (instance? UncachedApplicationDatabaseMetadataProvider another)
+         (= database-id (.database-id ^UncachedApplicationDatabaseMetadataProvider another)))))
 
 (mu/defn application-database-metadata-provider :- lib.metadata/MetadataProvider
   "An implementation of [[metabase.lib.metadata.protocols/MetadataProvider]] for the application database.

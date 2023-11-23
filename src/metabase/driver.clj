@@ -10,6 +10,7 @@
    [clojure.set :as set]
    [clojure.string :as str]
    [java-time.api :as t]
+   [metabase.config :as config]
    [metabase.driver.impl :as driver.impl]
    [metabase.models.setting :as setting :refer [defsetting]]
    [metabase.plugins.classloader :as classloader]
@@ -31,6 +32,8 @@
   `nil` (meaning subsequent queries will not attempt to change the session timezone) or something considered invalid
   by a given Database (meaning subsequent queries will fail to change the session timezone)."
   []
+  (when config/tests-available?
+    ((requiring-resolve 'mb.hawk.parallel/assert-test-is-not-parallel) `notify-all-databases-updated))
   (doseq [{driver :engine, id :id, :as database} (t2/select 'Database)]
     (try
       (notify-database-updated driver database)
