@@ -52,7 +52,7 @@ msgstr "Guardar"
 
 #: frontend/src/metabase/admin/databases/components/DatabaseSchedulingForm.jsx:122
 msgid "To do some of its magic, Metabase needs to scan your database. We will also rescan it periodically to keep the metadata up-to-date. You can control when the periodic rescans happen below."
-msgstr "Para hacer algo de su magia, Metabase necesita escanear tu base de datos. También la volveremos a escanear periódicamente para mantener los metadatos actualizados. A continuación puedes ajustar cuándo se realizan los nuevos escaneos periódicos."
+msgstr "Para hacer algo de su magia, VaypolBI necesita escanear tu base de datos. También la volveremos a escanear periódicamente para mantener los metadatos actualizados. A continuación puedes ajustar cuándo se realizan los nuevos escaneos periódicos."
 
 #: metabase/driver/common.clj:148
 msgid "Database syncing"
@@ -79,14 +79,14 @@ msgid "Metabase can scan the values present in each\n"
 "field in this database to enable checkbox filters in dashboards and questions. This\n"
 "can be a somewhat resource-intensive process, particularly if you have a very large\n"
 "database."
-msgstr "Metabase puede escanear los valores presentes en cada\n"
+msgstr "VaypolBI puede escanear los valores presentes en cada\n"
 "campo de esta base de datos para habilitar filtros de casillas de verificación en tableros y preguntas.\n"
 "Este puede ser un proceso algo intensivo en recursos, especialmente si tienes\n"
 "una base de datos muy grande."
 
 #: frontend/src/metabase/entities/databases/big-query-fields.js:167
 msgid "When should Metabase automatically scan and cache field values?"
-msgstr "¿Cuándo debería Metabase escanear y almacenar en caché automáticamente los valores de los campos?"
+msgstr "¿Cuándo debería VaypolBI escanear y almacenar en caché automáticamente los valores de los campos?"
 
 #: frontend/src/metabase/databases/components/DatabaseCacheScheduleField/DatabaseCacheScheduleField.tsx:72
 msgid "Regularly, on a schedule"
@@ -687,7 +687,7 @@ msgstr "{0} – Configuración de campos"
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/FieldGeneralSettings/FieldGeneralSettings.tsx:145
 msgid "Where this field will appear throughout Metabase"
-msgstr "Donde aparecerá este campo en Metabase"
+msgstr "Donde aparecerá este campo en VaypolBI"
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/FieldGeneralSettings/FieldGeneralSettings.tsx:274
 msgid "Filtering on this field"
@@ -769,7 +769,7 @@ msgstr "Valores de campo en caché"
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/FieldGeneralSettings/FieldGeneralSettings.tsx:332
 msgid "Metabase can scan the values for this field to enable checkbox filters in dashboards and questions."
-msgstr "Metabase puede escanear los valores de este campo para habilitar los filtros de casilla de verificación en cuadros de mando y preguntas."
+msgstr "VaypolBI puede escanear los valores de este campo para habilitar los filtros de casilla de verificación en cuadros de mando y preguntas."
 
 #: frontend/src/metabase/admin/datamodel/components/UpdateCachedFieldValues.jsx:15
 #: frontend/src/metabase/admin/datamodel/metadata/components/FieldGeneralSettings/FieldGeneralSettings.tsx:337
@@ -935,7 +935,7 @@ msgstr "Configuración"
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/MetadataTableSettings/MetadataTableSettings.tsx:106
 msgid "Metabase can scan the values in this table to enable checkbox filters in dashboards and questions."
-msgstr "Metabase puede leer los valores en esta tabla para habilitar filtros de casillas de verificación en cuadros de mandos y preguntas."
+msgstr "VaypolBI puede leer los valores en esta tabla para habilitar filtros de casillas de verificación en cuadros de mandos y preguntas."
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/MetadataTableSettings/MetadataTableSettings.tsx:111
 msgid "Re-scan this table"
@@ -982,16 +982,16 @@ msgstr "Convertir a este usuario en administrador"
 #: frontend/src/metabase/admin/people/components/GroupDetail.jsx:31
 msgid "All users belong to the {0} group and can't be removed from it. Setting permissions for this group is a great way to\n"
 "make sure you know what new Metabase users will be able to see."
-msgstr "Todos los usuarios pertenecen al grupo {0} no se pueden eliminar. Establecer permisos para este grupo es una excelente manera de asegurarte qué podrán ver los nuevos usuarios de Metabase."
+msgstr "Todos los usuarios pertenecen al grupo {0} no se pueden eliminar. Establecer permisos para este grupo es una excelente manera de asegurarte qué podrán ver los nuevos usuarios de VaypolBI."
 
 #: frontend/src/metabase/admin/people/components/GroupDetail.jsx:40
 msgid "This is a special group whose members can see everything in the Metabase instance, and who can access and make changes to the\n"
 "settings in the Admin Panel, including changing permissions! So, add people to this group with care."
-msgstr "Este es un grupo especial cuyos miembros pueden ver todo en la instancia de Metabase y quienes pueden acceder y realizar cambios en la configuración en el Panel de administración, ¡incluyendo el cambio de permisos! Así que añade personas a este grupo con cuidado."
+msgstr "Este es un grupo especial cuyos miembros pueden ver todo en la instancia de VaypolBI y quienes pueden acceder y realizar cambios en la configuración en el Panel de administración, ¡incluyendo el cambio de permisos! Así que añade personas a este grupo con cuidado."
 
 #: frontend/src/metabase/admin/people/components/GroupDetail.jsx:44
 msgid "To make sure you don't get locked out of Metabase, there always has to be at least one user in this group."
-msgstr "Para asegurarte de no quedar sin acceso a Metabase, siempre debe haber al menos un usuario en este grupo."
+msgstr "Para asegurarte de no quedar sin acceso a VaypolBI, siempre debe haber al menos un usuario en este grupo."
 
 #: frontend/src/metabase/admin/people/components/GroupsListing.jsx:222
 msgid "Members"
@@ -1372,15 +1372,15 @@ msgstr "Lo siento, ocurrió un error."
 
 #: frontend/src/metabase/admin/permissions/constants/messages.ts:3
 msgid "Administrators always have the highest level of access to everything in Metabase."
-msgstr "Los administradores siempre tienen el más alto nivel de acceso a todo en Metabase."
+msgstr "Los administradores siempre tienen el más alto nivel de acceso a todo en VaypolBI."
 
 #: frontend/src/metabase/admin/permissions/selectors.js:70
 msgid "Every Metabase user belongs to the All Users group. If you want to limit or restrict a group's access to something, make sure the All Users group has an equal or lower level of access."
-msgstr "Todos los usuarios de Metabase pertenecen al grupo All Users. Si quieres limitar o restringir el acceso de un grupo a algo, asegúrate de que el grupo All Users tenga un nivel de acceso igual o inferior."
+msgstr "Todos los usuarios de VaypolBI pertenecen al grupo All Users. Si quieres limitar o restringir el acceso de un grupo a algo, asegúrate de que el grupo All Users tenga un nivel de acceso igual o inferior."
 
 #: frontend/src/metabase/admin/permissions/selectors.js:72
 msgid "MetaBot is Metabase's Slack bot. You can choose what it has access to here."
-msgstr "MetaBot es el bot de Slack de Metabase. Puedes elegir a qué tiene acceso aquí."
+msgstr "MetaBot es el bot de Slack de VaypolBI. Puedes elegir a qué tiene acceso aquí."
 
 #: frontend/src/metabase/admin/permissions/selectors/confirmations.ts:59
 msgid "The \"{0}\" group may have access to a different set of {1} than this group, which may give this group additional access to some {2}."
@@ -1506,7 +1506,7 @@ msgstr "Accede con Google"
 #: frontend/src/metabase/admin/settings/auth/components/GoogleAuthForm/GoogleAuthForm.tsx:65
 #: frontend/src/metabase/admin/settings/auth/containers/GoogleAuthCard/GoogleAuthCard.tsx:17
 msgid "Allows users with existing Metabase accounts to login with a Google account that matches their email address in addition to their Metabase username and password."
-msgstr "Permite a los usuarios con cuentas Metabase existentes iniciar sesión con una cuenta de Google que coincida con su dirección de correo electrónico además de su nombre de usuario y contraseña de Metabase."
+msgstr "Permite a los usuarios con cuentas VaypolBI existentes iniciar sesión con una cuenta de Google que coincida con su dirección de correo electrónico además de su nombre de usuario y contraseña de VaypolBI."
 
 #: frontend/src/metabase/components/ChannelSetupMessage/ChannelSetupMessage.jsx:32
 msgid "Configure"
@@ -1519,7 +1519,7 @@ msgstr "LDAP"
 
 #: frontend/src/metabase/admin/settings/auth/containers/LdapAuthCard/LdapAuthCard.tsx:12
 msgid "Allows users within your LDAP directory to log in to Metabase with their LDAP credentials, and allows automatic mapping of LDAP groups to Metabase groups."
-msgstr "Permite a los usuarios de tu directorio LDAP iniciar sesión en la Metabase con sus credenciales LDAP, y permite la asignación automática de grupos LDAP a grupos de metabase."
+msgstr "Permite a los usuarios de tu directorio LDAP iniciar sesión en VaypolBI con sus credenciales LDAP, y permite la asignación automática de grupos LDAP a grupos de VaypolBI."
 
 #: frontend/src/metabase/admin/settings/components/SettingsBatchForm.jsx:21
 #: frontend/src/metabase/admin/settings/components/SettingsBatchForm.jsx:25
@@ -1596,7 +1596,7 @@ msgstr "Preparándote"
 
 #: frontend/src/metabase/admin/settings/setup/components/SetupCheckList/SetupCheckList.jsx:124
 msgid "A few things you can do to get the most out of Metabase."
-msgstr "Algunas cosas que puedes hacer para sacar el máximo provecho de Metabase."
+msgstr "Algunas cosas que puedes hacer para sacar el máximo provecho de VaypolBI|."
 
 #: frontend/src/metabase/admin/settings/setup/components/SetupCheckList/SetupCheckList.jsx:133
 msgid "Recommended next step"
@@ -1608,7 +1608,7 @@ msgstr "Acceso Google"
 
 #: frontend/src/metabase/admin/settings/components/SettingsSingleSignOnForm.jsx:123
 msgid "To allow users to sign in with Google you'll need to give Metabase a Google Developers console application client ID. It only takes a few steps and instructions on how to create a key can be found {0}"
-msgstr "Para permitir que los usuarios inicien sesión con Google, deberás proporcionar a Metabase un ID de cliente de aplicación de la consola de Desarrollo de Google. Solo se necesitan unos pocos pasos y se pueden encontrar instrucciones sobre cómo crear una clave {0}"
+msgstr "Para permitir que los usuarios inicien sesión con Google, deberás proporcionar a VaypolBI un ID de cliente de aplicación de la consola de Desarrollo de Google. Solo se necesitan unos pocos pasos y se pueden encontrar instrucciones sobre cómo crear una clave {0}"
 
 #: frontend/src/metabase/admin/settings/components/SettingsSingleSignOnForm.jsx:140
 msgid "Your Google client ID"
@@ -1628,15 +1628,15 @@ msgstr "Crear un usuario de Slack Bot para MetaBot"
 
 #: frontend/src/metabase/admin/settings/components/SettingsSlackForm.jsx:255
 msgid "Once you're there, give it a name and click {0}. Then copy and paste the Bot API Token into the field below. Once you are done, create a \"metabase_files\" channel in Slack. Metabase needs this to upload graphs."
-msgstr "Una vez que estés allí, asígnele un nombre y haz clic en {0}. Luego, copia y pega el API Token del Bot en el campo a continuación. En cuanto hayas terminado, crea un canal \"metabase_files\" en Slack. Metabase necesita ese para subir gráficos."
+msgstr "Una vez que estés allí, asígnele un nombre y haz clic en {0}. Luego, copia y pega el API Token del Bot en el campo a continuación. En cuanto hayas terminado, crea un canal \"metabase_files\" en Slack. VaypolBI necesita ese para subir gráficos."
 
 #: frontend/src/metabase/admin/settings/components/SettingsUpdatesForm/VersionUpdateNotice/VersionUpdateNotice.jsx:56
 msgid "You're running Metabase {0} which is the latest and greatest!"
-msgstr "¡Estás ejecutando Metabase {0} que es lo último y lo mejor!"
+msgstr "¡Estás ejecutando VaypolBI {0} que es lo último y lo mejor!"
 
 #: frontend/src/metabase/admin/settings/components/SettingsUpdatesForm.jsx:100
 msgid "Metabase {0} is available.  You're running {1}"
-msgstr "Metabase {0} está disponible.  Estás ejecutando {1}"
+msgstr "VaypolBI {0} está disponible.  Estás ejecutando {1}"
 
 #: enterprise/frontend/src/metabase-enterprise/audit_app/components/AuditNotificationEditModal/AuditNotificationEditModal.jsx:76
 #: enterprise/frontend/src/metabase-enterprise/snippets/components/SnippetCollectionForm.tsx:152
@@ -1761,7 +1761,7 @@ msgstr "Al habilitar el embebido, aceptas la licencia de incorporación ubicada 
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLegalese.jsx:23
 msgid "In plain English, when you embed charts or dashboards from Metabase in your own application, that application isn't subject to the Affero General Public License that covers the rest of Metabase, provided you keep the Metabase logo and the \"Powered by Metabase\" visible on those embeds. You should, however, read the license text linked above as that is the actual license that you will be agreeing to by enabling this feature."
-msgstr "En lenguaje sencillo, cuando insertas tablas o cuadros de mando de Metabase en tu propia aplicación, esa aplicación no está sujeta a la Licencia AGPL que cubre el resto de Metabase, siempre que mantengas el logotipo de Metabase y el \"Powered by Metabase\" visible en esas incrustaciones. Sin embargo, debes leer el texto de licencia, ya que esa es la licencia real que aceptas al habilitar esta función."
+msgstr "En lenguaje sencillo, cuando insertas tablas o cuadros de mando de VaypolBI en tu propia aplicación, esa aplicación no está sujeta a la Licencia AGPL que cubre el resto de VaypolBI, siempre que mantengas el logotipo de VaypolBI y el \"Powered by VaypolBI\" visible en esas incrustaciones. Sin embargo, debes leer el texto de licencia, ya que esa es la licencia real que aceptas al habilitar esta función."
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLegalese/EmbeddingLegalese.tsx:68
 msgid "Enable"
@@ -1773,11 +1773,11 @@ msgstr "Embebido Premium habilitado"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLevel.jsx:30
 msgid "Enter the token you bought from the Metabase Store"
-msgstr "Introduce el token que compraste en la Tienda Metabase"
+msgstr "Introduce el token que compraste en la Tienda VaypolBI"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLevel.jsx:57
 msgid "Premium embedding lets you disable \"Powered by Metabase\" on your embedded dashboards and questions."
-msgstr "La incrustación Premium te permite desactivar \"Powered by Metabase\" en tus cuadros de mandos y preguntas embebidas."
+msgstr "La incrustación Premium te permite desactivar \"Powered by VaypolBI\" en tus cuadros de mandos y preguntas embebidas."
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLevel.jsx:64
 msgid "Buy a token"
@@ -1803,7 +1803,7 @@ msgstr "Crear una asignación"
 msgid "Mappings allow Metabase to automatically add and remove users from groups based on the membership information provided by the\n"
 "directory server. Membership to the Admin group can be granted through mappings, but will not be automatically removed as a\n"
 "failsafe measure."
-msgstr "Las asignaciones permiten que Metabase agregue y elimine automáticamente usuarios de grupos según la información de membresía proporcionada por el servidor de directorios. La membresía al grupo de administración se puede otorgar a través de asignaciones, pero no se eliminará automáticamente como una medida a prueba de fallas."
+msgstr "Las asignaciones permiten que VaypolBI agregue y elimine automáticamente usuarios de grupos según la información de membresía proporcionada por el servidor de directorios. La membresía al grupo de administración se puede otorgar a través de asignaciones, pero no se eliminará automáticamente como una medida a prueba de fallas."
 
 #: frontend/src/metabase/plugins/builtin/auth/ldap.js:108
 msgid "Distinguished Name"
@@ -2076,7 +2076,7 @@ msgstr "URL del servidor de capas de mapa"
 
 #: frontend/src/metabase/admin/settings/selectors.js:308
 msgid "Metabase uses OpenStreetMaps by default."
-msgstr "Metabase usa OpenStreetMaps por defecto."
+msgstr "VaypolBI usa OpenStreetMaps por defecto."
 
 #: frontend/src/metabase/admin/settings/selectors.js:313
 msgid "Custom Maps"
@@ -2108,7 +2108,7 @@ msgstr "Incrustar en otras aplicaciones"
 
 #: frontend/src/metabase/admin/settings/selectors.js:332
 msgid "Enable Embedding Metabase in other Applications"
-msgstr "Habilitar incrustación de Metabase en otras aplicaciones"
+msgstr "Habilitar incrustación de VaypolBI en otras aplicaciones"
 
 #: frontend/src/metabase/admin/settings/selectors.js:532
 msgid "Embedding secret key"
@@ -2169,11 +2169,11 @@ msgstr "Volver al inicio de sesión"
 
 #: frontend/src/metabase/auth/components/GoogleNoAccount.jsx:15
 msgid "No Metabase account exists for this Google account."
-msgstr "No existe una cuenta de Metabase para esta cuenta de Google."
+msgstr "No existe una cuenta de VaypolBI para esta cuenta de Google."
 
 #: metabase/integrations/google.clj:26
 msgid "You'll need an administrator to create a Metabase account before you can use Google to log in."
-msgstr "Necesitará un administrador para crear una cuenta Metabase antes de poder usar Google para iniciar sesión."
+msgstr "Necesitará un administrador para crear una cuenta VaypolBI antes de poder usar Google para iniciar sesión."
 
 #: frontend/src/metabase/auth/components/AuthProviderButton.jsx:24
 msgid "Sign in with {0}"
@@ -2189,7 +2189,7 @@ msgstr "Olvidé mi contraseña"
 
 #: frontend/src/metabase/auth/components/ForgotPasswordForm/ForgotPasswordForm.tsx:51
 msgid "The email you use for your Metabase account"
-msgstr "El correo electrónico que utilizas para tu cuenta Metabase"
+msgstr "El correo electrónico que utilizas para tu cuenta VaypolBI"
 
 #: frontend/src/metabase/auth/components/ForgotPasswordForm/ForgotPasswordForm.tsx:55
 msgid "Send password reset email"
@@ -2201,7 +2201,7 @@ msgstr "Consulta tu correo electrónico para obtener instrucciones sobre cómo r
 
 #: frontend/src/metabase/auth/components/Login/Login.tsx:30
 msgid "Sign in to Metabase"
-msgstr "Iniciar sesión en Metabase"
+msgstr "Iniciar sesión en VaypolBI"
 
 #: frontend/src/metabase/auth/containers/LoginApp.jsx:165
 msgid "OR"
@@ -2421,7 +2421,7 @@ msgstr "Los cuadros de mando te permiten recopilar y compartir datos en un solo 
 
 #: frontend/src/metabase/components/CollectionLanding.jsx:77
 msgid "Pulses let you send out the latest data to your team on a schedule via email or slack."
-msgstr "Los pulsos te permiten enviar datos de Metabase a correo electrónico o Slack en el horario que deseas."
+msgstr "Los pulsos te permiten enviar datos de VaypolBI a correo electrónico o Slack en el horario que deseas."
 
 #: frontend/src/metabase/components/CollectionLanding.jsx:86
 msgid "Questions are a saved look at your data."
@@ -2511,12 +2511,12 @@ msgstr "Algunas instalaciones de bases de datos solo se pueden acceder conectán
 
 #: frontend/src/metabase/entities/databases/forms.js:349
 msgid "This is a large database, so let me choose when Metabase syncs and scans"
-msgstr "Esta es una base de datos grande, así que déjame elegir cuándo Metabase sincroniza y escanea"
+msgstr "Esta es una base de datos grande, así que déjame elegir cuándo VaypolBI sincroniza y escanea"
 
 #: frontend/src/metabase/components/DatabaseDetailsForm.jsx:296
 msgid "By default, Metabase does a lightweight hourly sync and an intensive daily scan of field values.\n"
 "If you have a large database, we recommend turning this on and reviewing when and how often the field value scans happen."
-msgstr "De forma predeterminada, Metabase realiza una sincronización ligera cada hora y un análisis diario intensivo de los valores de campo.\n"
+msgstr "De forma predeterminada, VaypolBI realiza una sincronización ligera cada hora y un análisis diario intensivo de los valores de campo.\n"
 "Si tienes una base de datos grande, te recomendamos activarla y revisar cuándo y con qué frecuencia ocurren los escaneos de valores de campo."
 
 #: frontend/src/metabase/databases/components/DatabaseClientIdDescription/DatabaseClientIdDescription.tsx:25
@@ -2542,7 +2542,7 @@ msgstr "con permisos de Google Drive"
 
 #: frontend/src/metabase/entities/databases/forms.js:248
 msgid "To use Metabase with this data you must enable API access in the Google Developers Console."
-msgstr "Para usar Metabase con estos datos, debes habilitar el acceso a la API en Google Developers Console."
+msgstr "Para usar VaypolBI con estos datos, debes habilitar el acceso a la API en Google Developers Console."
 
 #: frontend/src/metabase/entities/databases/forms.js:249
 msgid "{0} to go to the console if you haven't already done so."
@@ -2820,7 +2820,7 @@ msgstr "Cargando..."
 
 #: frontend/src/metabase/setup/components/NewsletterForm/NewsletterForm.tsx:44
 msgid "Metabase Newsletter"
-msgstr "Boletín Metabase"
+msgstr "Boletín VaypolBI"
 
 #: frontend/src/metabase/setup/components/NewsletterForm/NewsletterForm.tsx:48
 msgid "Get infrequent emails about new releases and feature updates."
@@ -2832,7 +2832,7 @@ msgstr "Suscribir"
 
 #: frontend/src/metabase/setup/components/NewsletterForm/NewsletterForm.tsx:71
 msgid "You're subscribed. Thanks for using Metabase!"
-msgstr "Estás suscrito. ¡Gracias por usar Metabase!"
+msgstr "Estás suscrito. ¡Gracias por usar VaypolBI!"
 
 #: frontend/src/metabase/containers/ErrorPages.tsx:35
 msgid "We're a little lost..."
@@ -2930,7 +2930,7 @@ msgstr "Día Calendario"
 
 #: frontend/src/metabase/components/SchedulePicker/SchedulePicker.tsx:235
 msgid "your Metabase timezone"
-msgstr "tu zona horaria en Metabase"
+msgstr "tu zona horaria en VaypolBI"
 
 #: frontend/src/metabase/components/SearchHeader.jsx:21
 msgid "Filter this list..."
@@ -3395,7 +3395,7 @@ msgstr "¡Hola Mundo!"
 
 #: frontend/src/metabase/home/components/Activity.jsx:264
 msgid "Metabase is up and running."
-msgstr "Metabase está funcionando."
+msgstr "VaypolBI está funcionando."
 
 #: frontend/src/metabase/home/components/Activity.jsx:270
 #: frontend/src/metabase/home/components/Activity.jsx:300
@@ -3774,7 +3774,7 @@ msgstr "No Incluir"
 
 #: frontend/src/metabase/lib/core.js:260
 msgid "Metabase will never retrieve this field. Use this for sensitive or irrelevant information."
-msgstr "Metabase nunca recuperará este campo. Úsalo para información sensible o irrelevante."
+msgstr "VaypolBI nunca recuperará este campo. Úsalo para información sensible o irrelevante."
 
 #: frontend/src/metabase-lib/operators/constants.js:323
 #: frontend/src/metabase/visualizations/lib/utils.js:150
@@ -4434,7 +4434,7 @@ msgstr "Ayuda"
 
 #: frontend/src/metabase/nav/components/ProfileLink.jsx:75
 msgid "About Metabase"
-msgstr "Sobre Metabase"
+msgstr "Sobre VaypolBI"
 
 #: frontend/src/metabase/nav/components/ProfileLink.jsx:81
 msgid "Sign out"
@@ -4462,7 +4462,7 @@ msgstr "y está construido con cariño en San Francisco, CA"
 
 #: frontend/src/metabase/nav/components/AdminNavbar/AdminNavbar.tsx:40
 msgid "Metabase Admin"
-msgstr "Configuración Metabase"
+msgstr "Configuración VaypolBI"
 
 #: frontend/src/metabase/query_builder/components/NativeQueryEditor/NativeQueryEditorSidebar/NativeQueryEditorSidebar.tsx:94
 #: frontend/src/metabase/query_builder/components/NativeQueryEditor/NativeQueryEditorSidebar/NativeQueryEditorSidebar.tsx:96
@@ -4781,7 +4781,7 @@ msgstr "Enlace público"
 
 #: frontend/src/metabase/public/components/widgets/SharingPane.tsx:119
 msgid "Share this {0} with people who don't have a Metabase account using the URL below:"
-msgstr "Comparte este {0} con personas que no tienen una cuenta de Metabase usando la siguiente URL:"
+msgstr "Comparte este {0} con personas que no tienen una cuenta de VaypolBI usando la siguiente URL:"
 
 #: frontend/src/metabase/public/components/widgets/SharingPane.tsx:148
 msgid "Public embed"
@@ -5004,7 +5004,7 @@ msgstr "Ayuda a todos los de tu equipo a mantenerse sincronizados con tus datos.
 
 #: frontend/src/metabase/pulse/components/WhatsAPulse.jsx:31
 msgid "Pulses let you send data from Metabase to email or Slack on the schedule of your choice."
-msgstr "Los pulsos te permiten enviar datos de Metabase a correo electrónico o Slack en el horario que desees."
+msgstr "Los pulsos te permiten enviar datos de VaypolBI a correo electrónico o Slack en el horario que desees."
 
 #: frontend/src/metabase/visualizations/click-actions/components/TimeseriesFilterWidget.jsx:71
 #: metabase/lib/fe_util.cljc:92
@@ -6289,7 +6289,7 @@ msgstr "Aplica rayos-X a este campo"
 #: frontend/src/metabase/models/containers/NewModelOptions/NewModelOptions.tsx:104
 #: frontend/src/metabase/reference/databases/NoDatabasesEmptyState.jsx:7
 msgid "Metabase is no fun without any data"
-msgstr "Metabase no es divertido sin datos"
+msgstr "VaypolBI no es divertido sin datos"
 
 #: frontend/src/metabase/models/containers/NewModelOptions/NewModelOptions.tsx:105
 #: frontend/src/metabase/reference/databases/NoDatabasesEmptyState.jsx:8
@@ -6433,7 +6433,7 @@ msgstr "Habla con {0}"
 
 #: frontend/src/metabase/reference/guide/GettingStartedGuideEditForm.jsx:253
 msgid "Help new Metabase users find their way around."
-msgstr "Ayuda a los nuevos usuarios de Metabase a encontrar su camino."
+msgstr "Ayuda a los nuevos usuarios de VaypolBI a encontrar su camino."
 
 #: frontend/src/metabase/reference/guide/GettingStartedGuideEditForm.jsx:256
 msgid "The Getting Started guide highlights the dashboard, metrics, segments, and tables that matter most, and informs your users of important things they should know before digging into the data."
@@ -6648,7 +6648,7 @@ msgstr "Conectando con {0}"
 
 #: frontend/src/metabase/setup/components/DatabaseConnectionStep.jsx:132
 msgid "You’ll need some info about your database, like the username and password. If you don’t have that right now, Metabase also comes with a sample dataset you can get started with."
-msgstr "Necesitarás información sobre tu base de datos, como el nombre de usuario y la contraseña. Si no tienes eso ahora mismo, Metabase también viene con un conjunto de datos de muestra con los que puedes empezar."
+msgstr "Necesitarás información sobre tu base de datos, como el nombre de usuario y la contraseña. Si no tienes eso ahora mismo, VaypolBI también viene con un conjunto de datos de muestra con los que puedes empezar."
 
 #: frontend/src/metabase/databases/components/DatabaseForm/DatabaseForm.tsx:205
 msgid "I'll add my data later"
@@ -6672,7 +6672,7 @@ msgstr "No recopilaremos ningún evento de uso"
 
 #: frontend/src/metabase/setup/components/PreferencesStep.jsx:90
 msgid "In order to help us improve Metabase, we'd like to collect certain data about usage through Google Analytics."
-msgstr "Para ayudarnos a mejorar Metabase, nos gustaría recopilar cierta información sobre el uso a través de Google Analytics."
+msgstr "Para ayudarnos a mejorar VaypolBI, nos gustaría recopilar cierta información sobre el uso a través de Google Analytics."
 
 #: frontend/src/metabase/setup/components/PreferencesStep.jsx:95
 msgid "Here's a full list of everything we track and why."
@@ -6680,11 +6680,11 @@ msgstr "Aquí hay una lista completa de todo lo que rastreamos y por qué."
 
 #: frontend/src/metabase/setup/components/PreferencesStep/PreferencesStep.tsx:89
 msgid "Allow Metabase to anonymously collect usage events"
-msgstr "Permitir que Metabase recopile eventos de uso de forma anónima"
+msgstr "Permitir que VaypolBI recopile eventos de uso de forma anónima"
 
 #: frontend/src/metabase/setup/components/PreferencesStep/PreferencesStep.tsx:94
 msgid "Metabase {0} collects anything about your data or question results."
-msgstr "Metabase {0} recopila información sobre tus datos o resultados de preguntas."
+msgstr "VaypolBI {0} recopila información sobre tus datos o resultados de preguntas."
 
 #: frontend/src/metabase/lib/settings.ts:290
 #: frontend/src/metabase/setup/components/PreferencesStep/PreferencesStep.tsx:95
@@ -6713,7 +6713,7 @@ msgstr "está a un solo click."
 
 #: frontend/src/metabase/setup/components/WelcomePage/WelcomePage.tsx:39
 msgid "Welcome to Metabase"
-msgstr "Bienvenid@ a Metabase"
+msgstr "Bienvenid@ a VaypolBI"
 
 #: frontend/src/metabase/setup/components/Setup.jsx:132
 msgid "Looks like everything is working. Now let’s get to know you, connect to your data, and start finding you some answers!"
@@ -6729,7 +6729,7 @@ msgstr "¡Estás listo!"
 
 #: frontend/src/metabase/setup/components/CompletedStep/CompletedStep.tsx:31
 msgid "Take me to Metabase"
-msgstr "Llévame a Metabase"
+msgstr "Llévame a VaypolBI"
 
 #: frontend/src/metabase/setup/components/UserStep/UserStep.tsx:70
 msgid "What should we call you?"
@@ -6807,7 +6807,7 @@ msgstr "Te mostraremos algunas exploraciones interesantes de tus datos\n"
 
 #: frontend/src/metabase/setup/containers/PostSetupApp.jsx:69
 msgid "This seems to be taking a while. In the meantime, you can check out one of these example explorations to see what Metabase can do for you."
-msgstr "Esto parece que está tardando un tiempo. Mientras tanto, puedes ver una de estas exploraciones de ejemplo para ver lo qué Metabase puede hacer por ti."
+msgstr "Esto parece que está tardando un tiempo. Mientras tanto, puedes ver una de estas exploraciones de ejemplo para ver lo qué VaypolBI puede hacer por ti."
 
 #: frontend/src/metabase/setup/containers/PostSetupApp.jsx:83
 msgid "I took a look at the data you just connected, and I have some explorations of interesting things I found. Hope you like them!"
@@ -7949,7 +7949,7 @@ msgstr "Correo no verificado."
 
 #: src/metabase/integrations/google.clj
 msgid "You''ll need an administrator to create a Metabase account before you can use Google to log in."
-msgstr "Necesitarás un administrador para crear una cuenta Metabase antes de poder usar Google para iniciar sesión."
+msgstr "Necesitarás un administrador para crear una cuenta VaypolBI antes de poder usar Google para iniciar sesión."
 
 #: target/classes/metabase/integrations/google.clj
 msgid "Successfully authenticated Google Auth token for: {0} {1}"
@@ -8024,7 +8024,7 @@ msgstr "¿Tienes muchas preguntas guardadas en {0}? Crea colecciones para ayudar
 #: frontend/src/metabase/routes.jsx:97 metabase/api/setup.clj:290
 #: metabase/email/messages.clj:56
 msgid "Metabase"
-msgstr "Metabase"
+msgstr "VaypolBI"
 
 #: metabase/api/setup.clj:254
 msgid "Create metrics"
@@ -8416,19 +8416,19 @@ msgstr "FALLO [[[{0}]]]"
 
 #: metabase/core.clj:70
 msgid "Please use the following URL to setup your Metabase installation:"
-msgstr "Utiliza la siguiente URL para configurar tu instalación de Metabase:"
+msgstr "Utiliza la siguiente URL para configurar tu instalación de VaypolBI:"
 
 #: metabase/core.clj:84
 msgid "Metabase Shutting Down ..."
-msgstr "Apagando Metabase ..."
+msgstr "Apagando VaypolBI ..."
 
 #: metabase/core.clj:90
 msgid "Metabase Shutdown COMPLETE"
-msgstr "Metabase apagado correctamente"
+msgstr "VaypolBI apagado correctamente"
 
 #: metabase/core.clj:100
 msgid "Starting Metabase version {0} ..."
-msgstr "Iniciando Metabase {0} ..."
+msgstr "Iniciando VaypolBI {0} ..."
 
 #: src/metabase/core.clj
 msgid "System timezone is ''{0}'' ..."
@@ -8437,7 +8437,7 @@ msgstr "La zona horaria del sistema es ''{0}'' ..."
 #. startup database.  validates connection & runs any necessary migrations
 #: metabase/core.clj:110
 msgid "Setting up and migrating Metabase DB. Please sit tight, this may take a minute..."
-msgstr "Configurando y migrando la base de datos de Metabase. Por favor, siéntate, esto puede tardar unos minutos ..."
+msgstr "Configurando y migrando la base de datos de VaypolBI. Por favor, siéntate, esto puede tardar unos minutos ..."
 
 #: metabase/core.clj:125
 msgid "Looks like this is a new installation ... preparing setup wizard"
@@ -8445,7 +8445,7 @@ msgstr "Parece que es una instalación nueva ... iniciando el asistente de confi
 
 #: metabase/core.clj:137
 msgid "Metabase Initialization COMPLETE"
-msgstr "Inicialización de Metabase COMPLETADA"
+msgstr "Inicialización de VaypolBI COMPLETADA"
 
 #: metabase/server.clj:49
 msgid "Launching Embedded Jetty Webserver with config:"
@@ -8457,11 +8457,11 @@ msgstr "Apagando el servidor Jetty embebido"
 
 #: metabase/core.clj:161
 msgid "Starting Metabase in STANDALONE mode"
-msgstr "Iniciando Metabase en modo INDEPENDIENTE"
+msgstr "Iniciando VaypolBI en modo INDEPENDIENTE"
 
 #: metabase/core.clj:171
 msgid "Metabase Initialization FAILED"
-msgstr "La inicialización de Metabase ha FALLADO"
+msgstr "La inicialización de VaypolBI ha FALLADO"
 
 #: metabase/db/liquibase.clj:205
 msgid "Database has migration lock; cannot run migrations."
@@ -8469,7 +8469,7 @@ msgstr "La base de datos tiene un bloqueo de migración por lo que no podemos ac
 
 #: metabase/db/liquibase.clj:207
 msgid "You can force-release these locks by running `java -jar metabase.jar migrate release-locks`."
-msgstr "Puedes forzar la liberación de estos bloqueos ejecutando `java -jar metabase.jar migrate release-locks`."
+msgstr "Puedes forzar la liberación de estos bloqueos ejecutando `java -jar VaypolBI.jar migrate release-locks`."
 
 #: metabase/db/liquibase.clj:212
 msgid "Checking if Database has unrun migrations..."
@@ -8608,21 +8608,21 @@ msgstr "Está prohibido ejecutar consultas SQL en bases de datos H2 utilizando e
 
 #: src/metabase/driver/sparksql.clj
 msgid "Error: metabase.driver.FixedHiveDriver is registered, but JDBC does not seem to be using it."
-msgstr "Error: metabase.driver.FixedHiveDriver está registrado, pero parece que JDBC no lo está usando."
+msgstr "Error: VaypolBI.driver.FixedHiveDriver está registrado, pero parece que JDBC no lo está usando."
 
 #: src/metabase/driver/sparksql.clj
 msgid "Found metabase.driver.FixedHiveDriver."
-msgstr "Se ha encontrado metabase.driver.FixedHiveDriver."
+msgstr "Se ha encontrado VaypolBI.driver.FixedHiveDriver."
 
 #: src/metabase/driver/sparksql.clj
 msgid "Successfully registered metabase.driver.FixedHiveDriver with JDBC."
-msgstr "Se ha registrado metabase.driver.FixedHiveDriver con JDBC."
+msgstr "Se ha registrado VaypolBI.driver.FixedHiveDriver con JDBC."
 
 #. CONFIG
 #. TODO - smtp-port should be switched to type :integer
 #: src/metabase/email.clj target/classes/metabase/email.clj
 msgid "Email address you want to use as the sender of Metabase."
-msgstr "Dirección de correo electrónico que quieres usar como remitente de Metabase."
+msgstr "Dirección de correo electrónico que quieres usar como remitente de VaypolBI."
 
 #: metabase/email.clj:57
 msgid "The address of the SMTP server that handles your emails."
@@ -8715,7 +8715,7 @@ msgstr "Base de búsqueda para grupos, no requerida si tu directorio LDAP propor
 #. Should be in the form: {"cn=Some Group,dc=...": [1, 2, 3]} where keys are LDAP groups and values are lists of MB groups IDs
 #: metabase/integrations/ldap.clj:93
 msgid "JSON containing LDAP to Metabase group mappings."
-msgstr "JSON que contiene las correspondencia de LDAP a grupos de Metabase."
+msgstr "JSON que contiene las correspondencia de LDAP a grupos de VaypolBI."
 
 #. Define a setting which captures our Slack api token
 #: target/classes/metabase/integrations/slack.clj
@@ -8931,7 +8931,7 @@ msgstr "Almacenando Valores de Campo para el campo {0} ..."
 
 #: src/metabase/models/humanization.clj
 msgid "Metabase can attempt to transform your table and field names into more sensible, human-readable versions, e.g. \"somehorriblename\" becomes \"Some Horrible Name\"."
-msgstr "Metabase puede intentar transformar los nombres de tablas y campos en versiones más entendibles y legibles para el ser humano, p.e. \"unnombrehorrible\" se convierte en \"Un Nombre Horrible\". "
+msgstr "VaypolBI puede intentar transformar los nombres de tablas y campos en versiones más entendibles y legibles para el ser humano, p.e. \"unnombrehorrible\" se convierte en \"Un Nombre Horrible\". "
 
 #: src/metabase/models/humanization.clj
 msgid "This doesn’t work all that well if the names are in a language other than English, however."
@@ -9083,11 +9083,11 @@ msgstr "Cargando complemento {0}..."
 
 #: src/metabase/plugins.clj
 msgid "It looks like you have some external dependencies in your Metabase plugins directory."
-msgstr "Parece que tienes algunas dependencias externas en tu directorio de complementos de Metabase."
+msgstr "Parece que tienes algunas dependencias externas en tu directorio de complementos de VaypolBI."
 
 #: src/metabase/plugins.clj
 msgid "With Java 9 or higher, Metabase cannot automatically add them to your classpath."
-msgstr "Con Java 9 o superior, Metabase no puede agregarlos automáticamente a tu classpath."
+msgstr "Con Java 9 o superior, VaypolBI no puede agregarlos automáticamente a tu classpath."
 
 #: src/metabase/plugins.clj
 msgid "Instead, you should include them at launch with the -cp option. For example:"
@@ -9095,31 +9095,31 @@ msgstr "En su lugar, debes incluirlos en el lanzamiento con la opción -cp. Por 
 
 #: src/metabase/plugins.clj
 msgid "See https://metabase.com/docs/latest/operations-guide/start.html#java-versions for more details."
-msgstr "Ver https://metabase.com/docs/latest/operations-guide/start.html#java-versions para más detalles."
+msgstr "Ver https://VaypolBI.com/docs/latest/operations-guide/start.html#java-versions para más detalles."
 
 #: src/metabase/plugins.clj
 msgid "(If you're already running Metabase this way, you can ignore this message.)"
-msgstr "(Si ya estás ejecutando Metabase de esta manera, puedes ignorar este mensaje.)"
+msgstr "(Si ya estás ejecutando VaypolBI de esta manera, puedes ignorar este mensaje.)"
 
 #: metabase/public_settings.clj:68
 msgid "Identify when new versions of Metabase are available."
-msgstr "Informar cuándo hay nuevas versiones de Metabase."
+msgstr "Informar cuándo hay nuevas versiones de VaypolBI."
 
 #: metabase/public_settings.clj:74
 msgid "Information about available versions of Metabase."
-msgstr "Información sobre las versiones disponibles de Metabase."
+msgstr "Información sobre las versiones disponibles de VaypolBI."
 
 #: metabase/public_settings.clj:77
 msgid "The name used for this instance of Metabase."
-msgstr "El nombre usado para esta instancia de Metabase."
+msgstr "El nombre usado para esta instancia de VaypolBI."
 
 #: src/metabase/public_settings.clj
 msgid "The base URL of this Metabase instance, e.g. \"http://metabase.my-company.com\"."
-msgstr "La URL base de esta instancia de Metabase, p.e. \"http://metabase.my-company.com\"."
+msgstr "La URL base de esta instancia de VaypolBI, p.e. \"http://VaypolBI.my-company.com\"."
 
 #: src/metabase/public_settings.clj
 msgid "The default language for this Metabase instance."
-msgstr "El idioma predeterminado para esta instancia de Metabase."
+msgstr "El idioma predeterminado para esta instancia de VaypolBI."
 
 #: src/metabase/public_settings.clj
 msgid "This only applies to emails, Pulses, etc. Users'' browsers will specify the language used in the user interface."
@@ -9131,7 +9131,7 @@ msgstr "La dirección de correo electrónico al que se dirigirán los usuarios s
 
 #: metabase/public_settings.clj:195
 msgid "Enable the collection of anonymous usage data in order to help Metabase improve."
-msgstr "Habilita la recopilación de datos de uso anónimos para ayudar a mejorar Metabase."
+msgstr "Habilita la recopilación de datos de uso anónimos para ayudar a mejorar VaypolBI."
 
 #: metabase/public_settings.clj:258
 msgid "The map tile server URL template used in map visualizations, for example from OpenStreetMaps or MapBox."
@@ -9163,7 +9163,7 @@ msgstr "El tiempo máximo absoluto para mantener los resultados de las consultas
 
 #: metabase/public_settings.clj:299
 msgid "Metabase will cache all saved questions with an average query execution time longer than this many seconds:"
-msgstr "Metabase guardará en caché todas las preguntas guardadas con un tiempo promedio de ejecución de la consulta más largo que estos segundos:"
+msgstr "VaypolBI guardará en caché todas las preguntas guardadas con un tiempo promedio de ejecución de la consulta más largo que estos segundos:"
 
 #: src/metabase/public_settings.clj target/classes/metabase/public_settings.clj
 msgid "To determine how long each saved question''s cached result should stick around, we take the query''s average execution time and multiply that by whatever you input here."
@@ -9377,7 +9377,7 @@ msgstr "Tarea ya existe:"
 #. the "Starting Metabase in STANDALONE mode" message because so many other namespaces need to get loaded
 #: src/metabase/util.clj
 msgid "Loading Metabase..."
-msgstr "Cargando Metabase..."
+msgstr "Cargando VaypolBI..."
 
 #: src/metabase/util/date.clj
 msgid "Possible timezone conflict found on database {0}."
@@ -9401,11 +9401,11 @@ msgstr "MB_ENCRYPTION_SECRET_KEY debe tener al menos 16 caracteres"
 
 #: metabase/util/encryption.clj:44
 msgid "Saved credentials encryption is ENABLED for this Metabase instance."
-msgstr "Guardar credenciales encriptadas está HABILITADO para esta instancia de Metabase."
+msgstr "Guardar credenciales encriptadas está HABILITADO para esta instancia de VaypolBI."
 
 #: metabase/util/encryption.clj:45
 msgid "Saved credentials encryption is DISABLED for this Metabase instance."
-msgstr "Guardar credenciales encriptadas está DESHABILITADO para esta instancia de Metabase."
+msgstr "Guardar credenciales encriptadas está DESHABILITADO para esta instancia de VaypolBI."
 
 #: src/metabase/util/encryption.clj
 msgid "nFor more information, see"
@@ -9642,7 +9642,7 @@ msgstr "No hay resultados"
 
 #: frontend/src/metabase/home/containers/SearchApp.jsx:42
 msgid "Metabase couldn't find any results for your search."
-msgstr "Metabase no pudo encontrar ningún resultado para su busqueda."
+msgstr "VaypolBI no pudo encontrar ningún resultado para su busqueda."
 
 #: frontend/src/metabase/new_query/containers/MetricSearch.jsx:115
 msgid "No metrics"
@@ -10046,7 +10046,7 @@ msgstr "Registro de solución de problemas"
 
 #: frontend/src/metabase/admin/tasks/containers/TasksApp.jsx:47
 msgid "Trying to get to the bottom of something? This section shows logs of Metabase's background tasks, which can help shed light on what's going on."
-msgstr "¿Tratando de llegar al fondo de algo? Esta sección muestra los registros de las tareas en segundo plano de Metabase, que pueden ayudar a aclarar lo que está pasando."
+msgstr "¿Tratando de llegar al fondo de algo? Esta sección muestra los registros de las tareas en segundo plano de VaypolBI, que pueden ayudar a aclarar lo que está pasando."
 
 #: frontend/src/metabase/admin/tasks/containers/TasksApp.jsx:66
 msgid "Task"
@@ -10624,7 +10624,7 @@ msgstr "No se cómo obtener información del Campo:"
 
 #: src/metabase/query_processor/middleware/annotate.clj
 msgid "metabase.query-processor.interface/*driver* is unbound."
-msgstr "metabase.query-processor.interface/*driver* no está definido."
+msgstr "VaypolBI.query-processor.interface/*driver* no está definido."
 
 #: metabase/query_processor/middleware/annotate.clj:378
 msgid "Query processor error: mismatched number of columns in query and results."
@@ -11919,15 +11919,15 @@ msgstr "Nos encantaría tus comentarios."
 
 #: metabase/email/messages.clj:106
 msgid "It looks like Metabase wasn’t quite a match for you."
-msgstr "Parece que Metabase no se ha ajustado a tus expectativas."
+msgstr "Parece que VaypolBI no se ha ajustado a tus expectativas."
 
 #: metabase/email/messages.clj:108
 msgid "Would you mind taking a fast 5 question survey to help the Metabase team understand why and make things better in the future?"
-msgstr "¿Te importaría realizar una encuesta rápida de 5 preguntas para ayudar al equipo de Metabase a comprender por qué y mejorar las cosas en el futuro?"
+msgstr "¿Te importaría realizar una encuesta rápida de 5 preguntas para ayudar al equipo de VaypolBI a comprender por qué y mejorar las cosas en el futuro?"
 
 #: metabase/email/messages.clj:286
 msgid "We hope you''ve been enjoying Metabase."
-msgstr "Esperamos que hayas estado disfrutando de Metabase."
+msgstr "Esperamos que hayas estado disfrutando de VaypolBI."
 
 #: metabase/email/messages.clj:113
 msgid "Would you mind taking a fast 6 question survey to tell us how it’s going?"
@@ -11935,27 +11935,27 @@ msgstr "¿Te importaría hacer una encuesta rápida de 6 preguntas para decirnos
 
 #: src/metabase/email/messages.clj
 msgid "{0} created a Metabase account"
-msgstr "{0} ha creado una cuenta en Metabase"
+msgstr "{0} ha creado una cuenta en VaypolBI"
 
 #: src/metabase/email/messages.clj
 msgid "{0} accepted their Metabase invite"
-msgstr "{0} ha aceptado su invitación a Metabase"
+msgstr "{0} ha aceptado su invitación a VaypolBI"
 
 #: src/metabase/email/messages.clj
 msgid "[Metabase] Password Reset Request"
-msgstr "[Metabase] Solicitud Reestablecer Contraseña"
+msgstr "[VaypolBI] Solicitud Reestablecer Contraseña"
 
 #: src/metabase/email/messages.clj
 msgid "[Metabase] Notification"
-msgstr "[Metabase] Notificación"
+msgstr "[VaypolBI] Notificación"
 
 #: src/metabase/email/messages.clj
 msgid "[Metabase] Help make Metabase better."
-msgstr "[Metabase] Ayuda a mejorar Metabase."
+msgstr "[VaypolBI] Ayuda a mejorar VaypolBI."
 
 #: src/metabase/email/messages.clj
 msgid "[Metabase] Tell us how things are going."
-msgstr "[Metabase] Dinos como van las cosas."
+msgstr "[VaypolBI] Dinos como van las cosas."
 
 #: metabase/mbql/util.cljc:374
 msgid "Error: query''s source query has not been resolved. You probably need to `preprocess` the query first."
@@ -12248,15 +12248,15 @@ msgstr "Puedes requerir agregar `?sslmode=require` a la cadena de conexión a la
 
 #: target/classes/metabase/db/env.clj
 msgid "If Metabase fails to launch, please add it and try again."
-msgstr "Si Metabase falla al arrancar, por favor agréguelo e intente de nuevo."
+msgstr "Si VaypolBI falla al arrancar, por favor agréguelo e intente de nuevo."
 
 #: target/classes/metabase/db/env.clj
 msgid "See https://github.com/metabase/metabase/issues/8908 for more details."
-msgstr "Consultar https://github.com/metabase/metabase/issues/8908 para más detalles."
+msgstr "Consultar https://github.com/VaypolBI/VaypolBI/issues/8908 para más detalles."
 
 #: src/metabase/db.clj
 msgid "WARNING: Using Metabase with an H2 application database is not recomended for production deployments."
-msgstr "ADVERTENCIA: el uso de Metabase con una base de datos de aplicaciones H2 no se recomienda para implementaciones de producción."
+msgstr "ADVERTENCIA: el uso de VaypolBI con una base de datos de aplicaciones H2 no se recomienda para implementaciones de producción."
 
 #: target/classes/metabase/db/env.clj
 msgid "For production deployments, we highly recommend using Postgres, MySQL, or MariaDB instead."
@@ -12268,11 +12268,11 @@ msgstr "Si decides continuar usando H2, asegúrate de hacer una copia de segurid
 
 #: src/metabase/db.clj
 msgid "See https://metabase.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres for more information."
-msgstr "Para obtener más información, consulta https://metabase.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres."
+msgstr "Para obtener más información, consulta https://VaypolBI.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres."
 
 #: metabase/db/setup.clj:110
 msgid "Unable to connect to Metabase {0} DB."
-msgstr "No se ha podido conectar a la base de datos {0} de Metabase."
+msgstr "No se ha podido conectar a la base de datos {0} de VaypolBI."
 
 #: target/classes/metabase/db/data_migrations.clj
 msgid "Error adding legacy SQL directive to BigQuery saved Question"
@@ -12384,19 +12384,19 @@ msgstr "No se pudo encontrar el ID de campo coincidente para el destino:"
 
 #: metabase/plugins.clj:34
 msgid "Metabase does not have permissions to write to plugins directory {0}"
-msgstr "Metabase no tiene permisos para escribir en el directorio de extensiones {0}"
+msgstr "VaypolBI no tiene permisos para escribir en el directorio de extensiones {0}"
 
 #: metabase/plugins.clj:41
 msgid "Metabase cannot use the plugins directory {0}"
-msgstr "Metabase no puede utilizar el directorio de extensiones {0}"
+msgstr "VaypolBI no puede utilizar el directorio de extensiones {0}"
 
 #: metabase/plugins.clj:43
 msgid "Please make sure the directory exists and that Metabase has permission to write to it."
-msgstr "Asegúrate de que el directorio existe y que Metabase tiene permiso para escribir en él."
+msgstr "Asegúrate de que el directorio existe y que VaypolBI tiene permiso para escribir en él."
 
 #: metabase/plugins.clj:44
 msgid "You can change the directory Metabase uses for modules by setting the environment variable MB_PLUGINS_DIR."
-msgstr "Puedes cambiar el directorio que utiliza Metabase para los módulos configurando la variable de entorno MB_PLUGINS_DIR."
+msgstr "Puedes cambiar el directorio que utiliza VaypolBI para los módulos configurando la variable de entorno MB_PLUGINS_DIR."
 
 #: metabase/plugins.clj:45
 msgid "Falling back to a temporary directory for now."
@@ -12404,11 +12404,11 @@ msgstr "Volviendo a un directorio temporal por ahora."
 
 #: metabase/plugins.clj:50
 msgid "Metabase cannot write to temporary directory. Please set MB_PLUGINS_DIR to a writable directory and restart Metabase."
-msgstr "Metabase no puede escribir en el directorio temporal. Configura MB_PLUGINS_DIR en un directorio escribible y reinicia Metabase."
+msgstr "VaypolBI no puede escribir en el directorio temporal. Configura MB_PLUGINS_DIR en un directorio escribible y reinicia VaypolBI."
 
 #: src/metabase/plugins.clj
 msgid "spark-deps.jar is no longer needed by Metabase 1.0+. You can delete it from the plugins directory."
-msgstr "Metabase 1.0+ ya no necesita spark-deps.jar. Puedes eliminarlo del directorio de extensiones."
+msgstr "VaypolBI 1.0+ ya no necesita spark-deps.jar. Puedes eliminarlo del directorio de extensiones."
 
 #: metabase/plugins.clj:168
 msgid "Failied to initialize plugin {0}"
@@ -12440,7 +12440,7 @@ msgstr "URL {0} añadida a classpath"
 
 #: metabase/plugins/dependencies.clj:29
 msgid "Plugin {0} declares a dependency that Metabase does not understand: {1}"
-msgstr "La extensión {0} declara una dependencia que Metabase no entiende: {1}"
+msgstr "La extensión {0} declara una dependencia que VaypolBI no entiende: {1}"
 
 #: metabase/plugins/dependencies.clj:30
 msgid "Refer to the plugin manifest reference for a complete list of valid plugin dependencies:"
@@ -12448,7 +12448,7 @@ msgstr "Consulta la referencia del manifest de la extensión para obtener una li
 
 #: metabase/plugins/dependencies.clj:51
 msgid "Metabase cannot initialize plugin {0} due to required dependencies."
-msgstr "Metabase no puede inicializar el complemento {0} debido a las dependencias requeridas."
+msgstr "VaypolBI no puede inicializar el complemento {0} debido a las dependencias requeridas."
 
 #: metabase/plugins/dependencies.clj:60
 msgid "Class not found: {0}"
@@ -12660,7 +12660,7 @@ msgstr "La limpieza del historial de tareas fue exitosa, no se ha eliminado ning
 
 #: metabase/task/upgrade_checks.clj:31
 msgid "Checking for new Metabase version info."
-msgstr "Buscando información de la versión de Metabase."
+msgstr "Buscando información de la versión de VaypolBI."
 
 #: src/metabase/task/upgrade_checks.clj
 msgid "Error fetching version info"
@@ -13000,7 +13000,7 @@ msgstr "Solicitud cancelada antes de terminar."
 
 #: src/metabase/middleware/json.clj
 msgid "Metabase only supports JSON requests."
-msgstr "Metabase solo admite solicitudes JSON."
+msgstr "VaypolBI solo admite solicitudes JSON."
 
 #: src/metabase/middleware/json.clj
 msgid "Make sure you set a 'Content-Type: application/json' header."
@@ -13008,7 +13008,7 @@ msgstr "Asegúrate de establecer un encabezado 'Content-Type: application / json
 
 #: metabase/server/middleware/misc.clj:50
 msgid "Setting Metabase site URL to {0}"
-msgstr "Estableciendo la URL de Metabase a {0}"
+msgstr "Estableciendo la URL de VaypolBI a {0}"
 
 #: metabase/models/database.clj:83
 msgid "Error scheduling tasks for DB"
@@ -13114,7 +13114,7 @@ msgstr "Ejecutar consultas automáticamente al realizar un filtrado/resumen simp
 
 #: frontend/src/metabase/components/DatabaseDetailsForm.jsx:320
 msgid "When this is on Metabase will automatically run queries when users do simple explorations with the Summarize and Filter buttons when viewing a table or chart. You can turn this off if querying this database is slow. This setting doesn’t affect drill-throughs or SQL queries."
-msgstr "Cuando esto está activo en Metabase, se ejecutarán consultas automáticamente cuando los usuarios realicen exploraciones simples con los botones Resumir y Filtrar al ver una tabla o gráfico. Puedes desactivar esto si las consultas de esta base de datos son lentas. Esta configuración no afecta la obtención de detalles ni a las consultas SQL."
+msgstr "Cuando esto está activo en VaypolBI, se ejecutarán consultas automáticamente cuando los usuarios realicen exploraciones simples con los botones Resumir y Filtrar al ver una tabla o gráfico. Puedes desactivar esto si las consultas de esta base de datos son lentas. Esta configuración no afecta la obtención de detalles ni a las consultas SQL."
 
 #: frontend/src/metabase/containers/Overworld.jsx:313
 msgid "Learn about this database"
@@ -13473,11 +13473,11 @@ msgstr "Solicitud cancelada, cancelando futuro."
 
 #: src/metabase/cmd/load_from_h2.clj
 msgid "Metabase can only transfer data from H2 to Postgres or MySQL/MariaDB."
-msgstr "Metabase solo puede transferir datos de H2 a Postgres o MySQL/MariaDB."
+msgstr "VaypolBI solo puede transferir datos de H2 a Postgres o MySQL/MariaDB."
 
 #: target/classes/metabase/db/env.clj
 msgid "WARNING: Using Metabase with an H2 application database is not recommended for production deployments."
-msgstr "ADVERTENCIA: No se recomienda usar Metabase con una base de datos de aplicaciones H2 para implementaciones de producción."
+msgstr "ADVERTENCIA: No se recomienda usar VaypolBI con una base de datos de aplicaciones H2 para implementaciones de producción."
 
 #: src/metabase/db.clj
 msgid "Application database setup"
@@ -13540,7 +13540,7 @@ msgstr "Error guardando el historial de tarea."
 
 #: metabase/plugins.clj:117
 msgid "spark-deps.jar is no longer needed by Metabase 0.32.0+. You can delete it from the plugins directory."
-msgstr "spark-deps.jar ya no es necesario para Metabase 0.32.0+. Puede eliminarlo del directorio de plugins."
+msgstr "spark-deps.jar ya no es necesario para VaypolBI 0.32.0+. Puede eliminarlo del directorio de plugins."
 
 #: src/metabase/plugins/classloader.clj
 msgid "Using NEWLY CREATED classloader as shared context classloader: {0}"
@@ -13573,7 +13573,7 @@ msgstr "No he podido mostrar este Pulso."
 
 #: metabase/pulse/render/body.clj:1058
 msgid "Please view this card in Metabase."
-msgstr "Por favor mostrar esta tarjeta en Metabase."
+msgstr "Por favor mostrar esta tarjeta en VaypolBI."
 
 #: metabase/pulse/render/body.clj:53
 msgid "An error occurred while displaying this card."
@@ -13770,7 +13770,7 @@ msgstr "Error al recuperar el Campo {0}: no existe dicho campo o pertenece a otr
 
 #: metabase/server/routes/index.clj:74
 msgid "Failed to load template ''{0}''. Did you remember to build the Metabase frontend?"
-msgstr "Error al cargar la plantilla \"{0}\". ¿Te acordaste de construir la interfaz de Metabase?"
+msgstr "Error al cargar la plantilla \"{0}\". ¿Te acordaste de construir la interfaz de VaypolBI?"
 
 #: target/classes/metabase/sample_data.clj
 msgid "Sample dataset DB file ''{0}'' cannot be found."
@@ -13828,7 +13828,7 @@ msgstr "Elige las columnas que quieres incluir"
 
 #: frontend/src/metabase/entities/databases/forms.js:343
 msgid "When this is on, Metabase will automatically run queries when users do simple explorations with the Summarize and Filter buttons when viewing a table or chart. You can turn this off if querying this database is slow. This setting doesn’t affect drill-throughs or SQL queries."
-msgstr "Al activar esto, Metabase ejecutará consultas automáticamente cuando los usuarios realicen exploraciones simples con los botones Resumir y Filtrar ea tablas o gráficos. Puedes desactivar esto si las consultas de esta base de datos son lentas. Esta configuración no afecta a los detalles ni a las consultas SQL."
+msgstr "Al activar esto, VaypolBI ejecutará consultas automáticamente cuando los usuarios realicen exploraciones simples con los botones Resumir y Filtrar ea tablas o gráficos. Puedes desactivar esto si las consultas de esta base de datos son lentas. Esta configuración no afecta a los detalles ni a las consultas SQL."
 
 #: frontend/src/metabase/query_builder/components/notebook/steps/JoinStep/JoinStrategyPicker/JoinStrategyPicker.tsx:51
 #: frontend/src/metabase/query_builder/components/notebook/steps/JoinStep/JoinStrategyPicker/JoinStrategyPicker.tsx:55
@@ -13871,11 +13871,11 @@ msgstr "Información de Diagnóstico"
 
 #: frontend/src/metabase/admin/tasks/components/Logs/Logs.jsx:108
 msgid "Select Metabase process:"
-msgstr "Selecciona el proceso de Metabase:"
+msgstr "Selecciona el proceso de VaypolBI:"
 
 #: frontend/src/metabase/admin/tasks/components/Logs/Logs.jsx:118
 msgid "All Metabase processes"
-msgstr "Todos los procesos de Metabase"
+msgstr "Todos los procesos de VaypolBI"
 
 #: frontend/src/metabase/lib/auth.js:18
 msgid "The window was closed before completing Google Authentication."
@@ -13895,7 +13895,7 @@ msgstr "El uso de esta opción requiere que el host proporcionado sea un FQDN. S
 
 #: frontend/src/metabase/entities/databases/forms.js:350
 msgid "By default, Metabase does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, we recommend turning this on and reviewing when and how often the field value scans happen."
-msgstr "De manera predeterminada, Metabase realiza una sincronización por hora y un escaneo diario intensivo de valores de campo. Si tienes una base de datos grande, recomendamos activar esto y revisar cuándo y con qué frecuencia ocurren los escaneos de valor de campo."
+msgstr "De manera predeterminada, VaypolBI realiza una sincronización por hora y un escaneo diario intensivo de valores de campo. Si tienes una base de datos grande, recomendamos activar esto y revisar cuándo y con qué frecuencia ocurren los escaneos de valor de campo."
 
 #: frontend/src/metabase/home/homepage/components/XraySection/XraySection.tsx:45
 msgid "Remove these suggestions"
@@ -14228,7 +14228,7 @@ msgstr "Enviando Alerta ({0}: {1}) vía email"
 
 #: target/classes/metabase/pulse.clj
 msgid "Metabase alert: {0} has {1}"
-msgstr "Alerta Metabase: {0} tiene {1}"
+msgstr "Alerta VaypolBI: {0} tiene {1}"
 
 #: metabase/pulse.clj:472
 msgid "Sending Alert ({0}: {1}) via Slack"
@@ -14313,7 +14313,7 @@ msgstr "Vale"
 
 #: frontend/src/metabase/admin/settings/auth/components/GoogleAuthForm/GoogleAuthForm.tsx:68
 msgid "To allow users to sign in with Google you'll need to give Metabase a Google Developers console application client ID. It only takes a few steps and instructions on how to create a key can be found {0}."
-msgstr "Para permitir a los usuarios iniciar sesión con Google, necesitas dar a Metabase un ID de cliente de aplicación de consola de Google Developers. solo unos pocos pasos y las instrucciones de cómo crear una clave están {0}"
+msgstr "Para permitir a los usuarios iniciar sesión con Google, necesitas dar a VaypolBI un ID de cliente de aplicación de consola de Google Developers. solo unos pocos pasos y las instrucciones de cómo crear una clave están {0}"
 
 #: frontend/src/metabase/admin/settings/components/SettingsSingleSignOnForm.jsx:134
 msgid "Be sure to include the full client ID, including the apps.googleusercontent.com suffix."
@@ -14321,7 +14321,7 @@ msgstr "Asegúrate de incluir el ID de cliente completo, incluyendo el sufijo ap
 
 #: frontend/src/metabase/admin/settings/components/SettingsUpdatesForm/VersionUpdateNotice/VersionUpdateNotice.jsx:76
 msgid "Metabase {0} is available."
-msgstr "Está disponible Metabase {0} "
+msgstr "Está disponible VaypolBI {0} "
 
 #: frontend/src/metabase/admin/settings/components/SettingsUpdatesForm/VersionUpdateNotice/VersionUpdateNotice.jsx:77
 msgid "You're running {0}"
@@ -14349,7 +14349,7 @@ msgstr "No hay grupos asignables"
 
 #: frontend/src/metabase/admin/tasks/containers/Help.jsx:109
 msgid "Metabase Documentation"
-msgstr "Documentación de Metabase"
+msgstr "Documentación de VaypolBI"
 
 #: frontend/src/metabase/admin/tasks/containers/Help.jsx:110
 msgid "Includes a troubleshooting guide"
@@ -14357,11 +14357,11 @@ msgstr "Incluye una guía de solución de problemas."
 
 #: frontend/src/metabase/admin/tasks/containers/Help.jsx:114
 msgid "Post on the Metabase support forum"
-msgstr "Comparte en el foro de soporte de Metabase"
+msgstr "Comparte en el foro de soporte de VaypolBI"
 
 #: frontend/src/metabase/admin/tasks/containers/Help.jsx:115
 msgid "A community forum for all things Metabase"
-msgstr "Un foro comunitario para todas las cosas Metabase"
+msgstr "Un foro comunitario para todas las cosas VaypolBI"
 
 #: frontend/src/metabase/admin/tasks/components/Help/Help.tsx:121
 msgid "File a bug report"
@@ -14434,7 +14434,7 @@ msgstr "Este es un proceso ligero que busca actualizaciones para el esquema de e
 
 #: frontend/src/metabase/entities/databases/big-query-fields.js:165
 msgid "Metabase can scan the values present in each field in this database to enable checkbox filters in dashboards and questions. This can be a somewhat resource-intensive process, particularly if you have a very large database."
-msgstr "Metabase puede escanear los valores presentes en cada campo en esta base de datos para habilitar filtros de casillas de verificación en paneles y preguntas. Este puede ser un proceso de uso intensivo de recursos, especialmente si tienes una base de datos muy grande."
+msgstr "VaypolBI puede escanear los valores presentes en cada campo en esta base de datos para habilitar filtros de casillas de verificación en paneles y preguntas. Este puede ser un proceso de uso intensivo de recursos, especialmente si tienes una base de datos muy grande."
 
 #: frontend/src/metabase/common/utils/model-names.ts:6
 #: frontend/src/metabase/components/NewItemMenu/NewItemMenu.tsx:112
@@ -14971,7 +14971,7 @@ msgstr "deben tener {0} caracteres o menos"
 
 #: frontend/src/metabase/nav/components/ProfileLink.jsx:121
 msgid "Thanks for using Metabase!"
-msgstr "Gracias por utilizar Metabase!"
+msgstr "Gracias por utilizar VaypolBI!"
 
 #: frontend/src/metabase/public/components/EmbedFrame/LogoBadge.tsx:26
 msgid "Powered by {0}"
@@ -15126,7 +15126,7 @@ msgstr "El token de autenticación de Google parece ser incorrecto."
 #: src/metabase/integrations/google.clj
 #: target/classes/metabase/integrations/google.clj
 msgid "Double check that it matches in Google and Metabase."
-msgstr "Verifica que coincida en Google y Metabase."
+msgstr "Verifica que coincida en Google y VaypolBI."
 
 #: metabase/api/table.clj:341
 msgid "Everything else"
@@ -15142,7 +15142,7 @@ msgstr "Actualización de base de datos requerida"
 
 #: metabase/db/setup.clj:46
 msgid "NOTICE: Your database requires updates to work with this version of Metabase."
-msgstr "AVISO: tu base de datos requiere actualizaciones para funcionar con esta versión de Metabase."
+msgstr "AVISO: tu base de datos requiere actualizaciones para funcionar con esta versión de VaypolBI."
 
 #: metabase/db/setup.clj:48
 msgid "Please execute the following sql commands on your database before proceeding."
@@ -15185,11 +15185,11 @@ msgstr "La subconsulta de la pregunta referenciada #{0} falló con el siguiente 
 
 #: metabase/driver/mysql.clj:120
 msgid "WARNING: Metabase only officially supports MySQL {0}/MariaDB {1} and above."
-msgstr "ADVERTENCIA: Metabase solo admite oficialmente MySQL {0}/MariaDB {1} y superior."
+msgstr "ADVERTENCIA: VaypolBI solo admite oficialmente MySQL {0}/MariaDB {1} y superior."
 
 #: metabase/driver/mysql.clj:124
 msgid "All Metabase features may not work properly when using an unsupported version."
-msgstr "Es posible que alguna funcionalidad de Metabase no funcione correctamente cuando se utiliza una versión no compatible."
+msgstr "Es posible que alguna funcionalidad de VaypolBI no funcione correctamente cuando se utiliza una versión no compatible."
 
 #: target/classes/metabase/driver/sql/parameters/substitute.clj
 msgid "Unable to substitute parameters"
@@ -15483,7 +15483,7 @@ msgstr "Cuentas de servicio"
 
 #: frontend/src/metabase/entities/databases/big-query-fields.js:30
 msgid "Metabase connects to Big Query via {0}."
-msgstr "Metabase conecta con Big Query a través de {0}"
+msgstr "VaypolBI conecta con Big Query a través de {0}"
 
 #: frontend/src/metabase/entities/databases/big-query-fields.js:33
 msgid "Continue using an OAuth application to connect"
@@ -15616,7 +15616,7 @@ msgstr "¿Cuál es tu idioma preferido?"
 
 #: frontend/src/metabase/setup/components/LanguageStep/LanguageStep.tsx:68
 msgid "This language will be used throughout Metabase and will be the default for new users."
-msgstr "Este lenguaje se utilizará en Metabase y será el predeterminado para los nuevos usuarios."
+msgstr "Este lenguaje se utilizará en VaypolBI y será el predeterminado para los nuevos usuarios."
 
 #: frontend/src/metabase/visualizations/components/PinMap.jsx:141
 msgid "We filtered out {0} row(s) containing null values."
@@ -15768,7 +15768,7 @@ msgstr "Error al recuperar el valor de la configuración"
 
 #: src/metabase/public_settings.clj
 msgid "The language that should be used for Metabase's UI, system emails, pulses, and alerts."
-msgstr "El idioma que se debe usar para la interfaz de usuario de Metabase, correos electrónicos del sistema, pulsos y alertas."
+msgstr "El idioma que se debe usar para la interfaz de usuario de VaypolBI, correos electrónicos del sistema, pulsos y alertas."
 
 #: src/metabase/public_settings.clj
 msgid "This is also the default language for all users, which they can change from their own account settings."
@@ -15788,7 +15788,7 @@ msgstr "No se pueden redirigir solicitudes a HTTPS a menos que `site-url` sea HT
 
 #: metabase/pulse/render/style.clj:112
 msgid "Error registering fonts: Metabase will not be able to send Pulses."
-msgstr "Error al registrar fuentes: Metabase no podrá enviar pulsos."
+msgstr "Error al registrar fuentes: VaypolBI no podrá enviar pulsos."
 
 #: metabase/pulse/render/style.clj:114
 msgid "This is a known issue with certain JVMs. See {0} and for more details."
@@ -15924,7 +15924,7 @@ msgstr "Configura tu proveeedor de identidad (IdP)"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.jsx:92
 msgid "Your identity provider will need the following info about Metabase."
-msgstr "Su proveedor de identidad necesitará la siguiente información sobre Metabase."
+msgstr "Su proveedor de identidad necesitará la siguiente información sobre VaypolBI."
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.jsx:99
 msgid "URL the IdP should redirect back to"
@@ -15960,11 +15960,11 @@ msgstr "Atributo de apellido del usuario"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.jsx:126
 msgid "Tell Metabase about your identity provider"
-msgstr "Cuéntele a Metabase sobre tu proveedor de identidad"
+msgstr "Cuéntele a VaypolBI sobre tu proveedor de identidad"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.jsx:127
 msgid "Metabase will need the following info about your provider."
-msgstr "Metabase necesitará la siguiente información sobre tu proveedor."
+msgstr "VaypolBI necesitará la siguiente información sobre tu proveedor."
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.jsx:131
 msgid "SAML Identity Provider URL"
@@ -16010,7 +16010,7 @@ msgstr "Sincroniza la membresía de grupo con SSO"
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.jsx:176
 msgid "To enable this, you'll need to create mappings to tell Metabase which group(s) your users should\n"
 "be added to based on the SSO group they're in."
-msgstr "Para habilitar esto, deberás crear asignaciones para decirle a Metabase a qué grupo(s) deben unirse tus\n"
+msgstr "Para habilitar esto, deberás crear asignaciones para decirle a VaypolBI a qué grupo(s) deben unirse tus\n"
 "usuarios en función del grupo de SSO en el que se encuentran."
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsJWTForm/SettingsJWTForm.tsx:120
@@ -16032,7 +16032,7 @@ msgstr "Nota:"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm.jsx:186
 msgid "If you change any of the settings of an existing SAML active setup, then you will need to restart Metabase for them to take effect."
-msgstr "Si cambias alguna de las opciones de una configuración activa SAML, deberás reiniciar Metabase para que surtan efecto."
+msgstr "Si cambias alguna de las opciones de una configuración activa SAML, deberás reiniciar VaypolBI para que surtan efecto."
 
 #: enterprise/frontend/src/metabase-enterprise/auth/containers/SamlAuthCard/SamlAuthCard.tsx:12
 msgid "Allows users to login via a SAML Identity Provider."
@@ -16084,11 +16084,11 @@ msgstr "Cadena utilizada por la clave de firma JWT"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/index.js:27
 msgid "Embedding the entire Metabase app"
-msgstr "Incrustar toda la aplicación Metabase"
+msgstr "Incrustar toda la aplicación VaypolBI"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/index.js:16
 msgid "If you want to embed all of Metabase, enter the origins of the websites or web apps where you want to allow embedding in an iframe, separated by a space. Here are the {0} for what can be entered."
-msgstr "Si quieres incrustar todo Metabase, define los sitios web o aplicaciones web donde quieres permitir la incrustación en un iframe, separados por un espacio. Aquí están los {0} para lo que se puede ingresar."
+msgstr "Si quieres incrustar todo VaypolBI, define los sitios web o aplicaciones web donde quieres permitir la incrustación en un iframe, separados por un espacio. Aquí están los {0} para lo que se puede ingresar."
 
 #: enterprise/frontend/src/metabase-enterprise/sandboxes/components/EditSandboxingModal/EditSandboxingModal.tsx:115
 msgid "Grant sandboxed access to this table"
@@ -16214,7 +16214,7 @@ msgstr "Tenemos problemas validando tu token"
 
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:89
 msgid "Please double-check that your instance can connect to Metabase's servers"
-msgstr "Verifica que tu instancia puede conectarse a los servidores de Metabase"
+msgstr "Verifica que tu instancia puede conectarse a los servidores de VaypolBI"
 
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:94
 msgid "Get help"
@@ -16222,11 +16222,11 @@ msgstr "Obtener ayuda"
 
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:101
 msgid "Get even more out of Metabase with the Enterprise Edition"
-msgstr "Aprovecha aún más Metabase con Enterprise Edition"
+msgstr "Aprovecha aún más VaypolBI con Enterprise Edition"
 
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:103
 msgid "All the tools you need to quickly and easily provide reports for your customers, or to help you run and monitor Metabase in a large organization"
-msgstr "Todas las herramientas que necesita para proporcionar informes rápida y fácilmente a sus clientes, o para ayudarlo a ejecutar y monitorear Metabase en una organización grande."
+msgstr "Todas las herramientas que necesita para proporcionar informes rápida y fácilmente a sus clientes, o para ayudarlo a ejecutar y monitorear VaypolBI en una organización grande."
 
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:115
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:137
@@ -16326,7 +16326,7 @@ msgstr "Etiquetado blanco"
 
 #: enterprise/frontend/src/metabase-enterprise/store/lib/features.js:17
 msgid "Match Metabase to your brand with custom colors, your own logo and more."
-msgstr "Haz coincidir Metabase con tu marca con colores personalizados, tu propio logotipo y más."
+msgstr "Haz coincidir VaypolBI con tu marca con colores personalizados, tu propio logotipo y más."
 
 #: enterprise/frontend/src/metabase-enterprise/store/lib/features.js:26
 msgid "Auditing"
@@ -16426,7 +16426,7 @@ msgstr "en"
 
 #: frontend/src/metabase/dashboard/components/ClickBehaviorSidebar/utils.ts:29
 msgid "Open the Metabase actions menu"
-msgstr "Abra el menú de acciones de la Metabase"
+msgstr "Abra el menú de acciones de la VaypolBI"
 
 #: frontend/src/metabase/dashboard/components/ClickBehaviorSidebar/TableClickBehaviorView/TableClickBehaviorView.tsx:29
 #: frontend/src/metabase/dashboard/components/ClickBehaviorSidebar/utils.ts:31
@@ -17118,7 +17118,7 @@ msgstr "Envíalo a Slack"
 
 #: frontend/src/metabase/sharing/components/NewPulseSidebar.tsx:104
 msgid "Pick a channel and a schedule, and Metabase will do the rest."
-msgstr "Elija un canal y un horario, y Metabase hará el resto."
+msgstr "Elija un canal y un horario, y VaypolBI hará el resto."
 
 #: frontend/src/metabase/sharing/components/AddEditSidebar/AddEditEmailSidebar.jsx:51
 msgid "Email this dashboard"
@@ -17176,15 +17176,15 @@ msgstr "Token de Slack inválido"
 
 #: metabase/cmd.clj:51
 msgid "The ''{0}'' command is only available in Metabase Enterprise Edition."
-msgstr "El comando ''{0}'' solo está disponible en Metabase Enterprise Edition."
+msgstr "El comando ''{0}'' solo está disponible en VaypolBI Enterprise Edition."
 
 #: metabase/core.clj:50
 msgid "Metabase Enterprise Edition extensions are PRESENT."
-msgstr "Las extensiones de Metabase Enterprise Edition ESTÁN PRESENTES."
+msgstr "Las extensiones de VaypolBI Enterprise Edition ESTÁN PRESENTES."
 
 #: metabase/core.clj:52
 msgid "Usage of Metabase Enterprise Edition features are subject to the Metabase Commercial License."
-msgstr "El uso de las funciones de Metabase Enterprise Edition está sujeto a la licencia comercial de Metabase."
+msgstr "El uso de las funciones de VaypolBI Enterprise Edition está sujeto a la licencia comercial de VaypolBI."
 
 #: metabase/core.clj:54
 msgid "See {0} for details."
@@ -17192,7 +17192,7 @@ msgstr "Ver {0} para obtener más detalles."
 
 #: metabase/core.clj:55
 msgid "Metabase Enterprise Edition extensions are NOT PRESENT."
-msgstr "Las extensiones de Metabase Enterprise Edition NO ESTÁN PRESENTES."
+msgstr "Las extensiones de VaypolBI Enterprise Edition NO ESTÁN PRESENTES."
 
 #: metabase/email/messages.clj:130
 msgid "You''re invited to join {0}''s {1}"
@@ -17347,7 +17347,7 @@ msgstr "las claves de atributo de inicio de sesión deben ser una palabra clave 
 
 #: src/metabase/public_settings.clj target/classes/metabase/public_settings.clj
 msgid "The default language for all users across the Metabase UI, system emails, pulses, and alerts."
-msgstr "El idioma predeterminado para todos los usuarios en la interfaz de usuario de la Metabase, correos electrónicos del sistema, pulsos y alertas."
+msgstr "El idioma predeterminado para todos los usuarios en la interfaz de usuario de la VaypolBI, correos electrónicos del sistema, pulsos y alertas."
 
 #: src/metabase/public_settings.clj target/classes/metabase/public_settings.clj
 msgid "Users can individually override this default language from their own account settings."
@@ -17359,7 +17359,7 @@ msgstr "Página predeterminada para mostrar al usuario"
 
 #: metabase/public_settings.clj:238
 msgid "Allow this origin to embed the full Metabase application"
-msgstr "Permitir que este origen incruste la aplicación completa de Metabase"
+msgstr "Permitir que este origen incruste la aplicación completa de VaypolBI"
 
 #: metabase/public_settings.clj:343
 msgid "Values greater than {0} ({1}) are not allowed."
@@ -17367,11 +17367,11 @@ msgstr "No se permiten valores superiores a {0} ({1})."
 
 #: metabase/public_settings.clj:29
 msgid "This will replace the word \"Metabase\" wherever it appears."
-msgstr "Esto reemplazará la palabra \"Metabase\" donde sea que aparezca."
+msgstr "Esto reemplazará la palabra \"VaypolBI\" donde sea que aparezca."
 
 #: metabase/public_settings.clj:337
 msgid "These are the primary colors used in charts and throughout Metabase. You might need to refresh your browser to see your changes take effect."
-msgstr "Estos son los colores primarios que se utilizan en los gráficos y en toda Metabase. Es posible que tengas que actualizar tu navegador para que los cambios surtan efecto."
+msgstr "Estos son los colores primarios que se utilizan en los gráficos y en toda VaypolBI. Es posible que tengas que actualizar tu navegador para que los cambios surtan efecto."
 
 #: metabase/public_settings.clj:433
 msgid "For best results, use an SVG file with a transparent background."
@@ -17504,7 +17504,7 @@ msgstr "Incluye el ID de usuario y el hash de la consulta en las consultas"
 
 #: frontend/src/metabase/entities/databases/forms.js:24
 msgid "When on, Metabase User ID and query hash get appended to queries on this database, which can be useful for auditing and debugging. However, this causes each query to look distinct, preventing BigQuery from returning cached results, which may increase your costs."
-msgstr "Cuando está activado, el ID de usuario de Metabase y el hash de consulta se agregan a las consultas en esta base de datos, lo que puede ser útil para auditar y depurar. Sin embargo, esto hace que cada consulta se vea distinta, lo que evita que BigQuery muestre resultados almacenados en caché incrementando los costos."
+msgstr "Cuando está activado, el ID de usuario de VaypolBI y el hash de consulta se agregan a las consultas en esta base de datos, lo que puede ser útil para auditar y depurar. Sin embargo, esto hace que cada consulta se vea distinta, lo que evita que BigQuery muestre resultados almacenados en caché incrementando los costos."
 
 #: metabase/driver/common.clj:182
 msgid "Periodically refingerprint tables"
@@ -17512,7 +17512,7 @@ msgstr "Marcar tablas periódicamente"
 
 #: frontend/src/metabase/entities/databases/forms.js:357
 msgid "When syncing with this database, Metabase will scan a subset of values of fields to gather statistics that enable things like improved binning behavior in charts, and to generally make your Metabase instance smarter."
-msgstr "Al sincronizar con esta base de datos, Metabase escaneará un subconjunto de valores de campos para recopilar estadísticas que permitan cosas como un comportamiento de agrupamiento mejorado en gráficos y, en general, hacer que tu instancia de Metabase sea más inteligente."
+msgstr "Al sincronizar con esta base de datos, VaypolBI escaneará un subconjunto de valores de campos para recopilar estadísticas que permitan cosas como un comportamiento de agrupamiento mejorado en gráficos y, en general, hacer que tu instancia de VaypolBI sea más inteligente."
 
 #: frontend/src/metabase/lib/core.js:251
 msgid "Updated date"
@@ -17780,7 +17780,7 @@ msgstr "valor de semilla de contexto no válido"
 
 #: metabase_enterprise/serialization/cmd.clj:59
 msgid "Dump was produced using a different version of Metabase. Things may break!"
-msgstr "El volcado se produjo utilizando una versión diferente de Metabase. ¡Las cosas pueden romperse!"
+msgstr "El volcado se produjo utilizando una versión diferente de VaypolBI. ¡Las cosas pueden romperse!"
 
 #: enterprise/backend/src/metabase_enterprise/serialization/cmd.clj
 msgid "Error loading dump: {0}"
@@ -17944,7 +17944,7 @@ msgstr "Contraseña para abrir el almacén de claves"
 
 #: metabase_enterprise/sso/integrations/sso_settings.clj:63
 msgid "Alias for the key that Metabase should use for signing SAML requests"
-msgstr "Alias de la clave que debe usar Metabase para firmar solicitudes SAML"
+msgstr "Alias de la clave que debe usar VaypolBI para firmar solicitudes SAML"
 
 #: metabase_enterprise/sso/integrations/sso_settings.clj:85
 msgid "SAML attribute for the user''s email address"
@@ -17969,7 +17969,7 @@ msgstr "Atributo SAML para sincronización de grupo"
 #. Should be in the form: {"groupName": [1, 2, 3]} where keys are SAML groups and values are lists of MB groups IDs
 #: metabase_enterprise/sso/integrations/sso_settings.clj:89
 msgid "JSON containing SAML to Metabase group mappings."
-msgstr "JSON que contiene asignaciones de grupos de SAML a Metabase."
+msgstr "JSON que contiene asignaciones de grupos de SAML a VaypolBI."
 
 #: metabase_enterprise/sso/integrations/sso_settings.clj:102
 msgid "Enable JWT based authentication"
@@ -18006,7 +18006,7 @@ msgstr "Habilitar la sincronización de la pertenencia a grupos con JWT."
 #. Should be in the form: {"groupName": [1, 2, 3]} where keys are JWT groups and values are lists of MB groups IDs
 #: metabase_enterprise/sso/integrations/sso_settings.clj:144
 msgid "JSON containing JWT to Metabase group mappings."
-msgstr "JSON que contiene asignaciones de grupos JWT a Metabase."
+msgstr "JSON que contiene asignaciones de grupos JWT a VaypolBI."
 
 #: metabase/integrations/common.clj:62
 msgid "Should new email notifications be sent to admins, for all new SSO users?"
@@ -18486,11 +18486,11 @@ msgstr "¿Quieres que se encarguen de las actualizaciones por ti?"
 #: frontend/src/metabase/admin/settings/components/SettingsUpdatesForm/VersionUpdateNotice/VersionUpdateNotice.jsx:126
 #: frontend/src/metabase/admin/settings/components/widgets/MarginHostingCTA.jsx:16
 msgid "Migrate to Metabase Cloud."
-msgstr "Migrar a la Nube de Metabase."
+msgstr "Migrar a la Nube de VaypolBI."
 
 #: frontend/src/metabase/nav/components/ProfileLink.jsx:50
 msgid "Manage Metabase Cloud"
-msgstr "Administrar la Nube de Metabase"
+msgstr "Administrar la Nube de VaypolBI"
 
 #: frontend/src/metabase/visualizations/visualizations/PivotTable/settings.ts:235
 msgid "Show totals"
@@ -18864,7 +18864,7 @@ msgstr "Formato de celda no válido"
 
 #: metabase/search/config.clj:10
 msgid "Enable typeahead search in the Metabase navbar?"
-msgstr "¿Habilitar la búsqueda anticipada en la barra de navegación de la Metabase?"
+msgstr "¿Habilitar la búsqueda anticipada en la barra de navegación de la VaypolBI?"
 
 #: target/classes/metabase/server/request/util.clj
 msgid "Login in request is missing device ID information"
@@ -19261,7 +19261,7 @@ msgstr "Campo Inválido {0} {1}: se utilizará {2}"
 #: src/metabase/models/humanization.clj
 #: target/classes/metabase/models/humanization.clj
 msgid "To make table and field names more human-friendly, Metabase will replace dashes and underscores in them with spaces."
-msgstr "Para hacer que los nombres de tablas y campos sean más amigables, Metabase reemplazará los guiones y guiones bajos con espacios."
+msgstr "Para hacer que los nombres de tablas y campos sean más amigables, VaypolBI reemplazará los guiones y guiones bajos con espacios."
 
 #: src/metabase/models/humanization.clj
 #: target/classes/metabase/models/humanization.clj
@@ -19275,7 +19275,7 @@ msgstr "Asignar nombres así producirá una colisión: {0} y {1}"
 
 #: metabase/public_settings.clj:81
 msgid "Indicates when Metabase last checked for new versions."
-msgstr "Indica cuándo fue la última vez que Metabase comprobó si había nuevas versiones."
+msgstr "Indica cuándo fue la última vez que VaypolBI comprobó si había nuevas versiones."
 
 #: src/metabase/public_settings.clj target/classes/metabase/public_settings.clj
 msgid "This URL is used for things like creating links in emails, auth redirects,"
@@ -19375,7 +19375,7 @@ msgstr "Introduce el token que has recibido de la tienda"
 
 #: frontend/src/metabase/admin/settings/components/SettingsUpdatesForm/VersionUpdateNotice/VersionUpdateNotice.jsx:41
 msgid "Metabase Cloud keeps your instance up-to-date. You're currently on version {0}. Thanks for being a customer!"
-msgstr "Metabase Cloud mantiene su instancia actualizada. Actualmente estás en la versión {0}. ¡Gracias por ser cliente!"
+msgstr "VaypolBI Cloud mantiene su instancia actualizada. Actualmente estás en la versión {0}. ¡Gracias por ser cliente!"
 
 #: frontend/src/metabase/admin/settings/components/SettingsUpdatesForm/VersionUpdateNotice/VersionUpdateNotice.jsx:35
 msgid "No successful checks yet."
@@ -19531,12 +19531,12 @@ msgstr "Haz también todas las subcolecciones {0}."
 
 #: enterprise/frontend/src/metabase-enterprise/hosting/components/SettingsCloudStoreLink/SettingsCloudStoreLink.tsx:10
 msgid "Manage your Cloud account, including billing preferences and technical settings about this instance in your Metabase Store account."
-msgstr "Gestione su cuenta en la nube, incluidas las preferencias de facturación y los ajustes técnicos sobre esta instancia en su cuenta de la tienda Metabase."
+msgstr "Gestione su cuenta en la nube, incluidas las preferencias de facturación y los ajustes técnicos sobre esta instancia en su cuenta de la tienda VaypolBI."
 
 #: enterprise/frontend/src/metabase-enterprise/hosting/components/SettingsCloudStoreLink/SettingsCloudStoreLink.tsx:12
 #: enterprise/frontend/src/metabase-enterprise/license/components/LicenseAndBillingSettings/LicenseAndBillingSettings.tsx:126
 msgid "Go to the Metabase Store"
-msgstr "Ir a la tienda de Metabase"
+msgstr "Ir a la tienda de VaypolBI"
 
 #: metabase/driver/presto_jdbc.clj:558
 msgid "Running statement in describe-schema: {0}"
@@ -19659,7 +19659,7 @@ msgstr "Asegúra que los usuarios nunca puedan ver los datos de esta base de dat
 
 #: frontend/src/metabase/admin/permissions/constants/messages.ts:7
 msgid "Only available in certain Metabase plans."
-msgstr "Sólo disponible en algunos planes de Metabase."
+msgstr "Sólo disponible en algunos planes de VaypolBI."
 
 #: frontend/src/metabase/admin/permissions/components/DataPermissionsHelp/DataPermissionsHelp.jsx:60
 msgid "Learn more about permissions"
@@ -19799,7 +19799,7 @@ msgstr "Darse de baja de todas las suscripciones / alertas"
 
 #: enterprise/frontend/src/metabase-enterprise/caching/components/DatabaseCacheTimeField/DatabaseCacheTimeField.tsx:49
 msgid "How long to keep question results. By default, Metabase will use the value you supply on the {0}, but if this database has other factors that influence the freshness of data, it could make sense to set a custom duration. You can also choose custom durations on individual questions or dashboards to help improve performance."
-msgstr "Cuánto tiempo conservar los resultados de las preguntas. De forma predeterminada, Metabase utilizará el valor que proporciones en {0}, pero si esta base de datos tiene otros factores que influyen en la validez de los datos, podría tener sentido establecer una duración personalizada. También puedes elegir duraciones personalizadas en preguntas o paneles individuales para ayudar a mejorar el rendimiento."
+msgstr "Cuánto tiempo conservar los resultados de las preguntas. De forma predeterminada, VaypolBI utilizará el valor que proporciones en {0}, pero si esta base de datos tiene otros factores que influyen en la validez de los datos, podría tener sentido establecer una duración personalizada. También puedes elegir duraciones personalizadas en preguntas o paneles individuales para ayudar a mejorar el rendimiento."
 
 #: enterprise/frontend/src/metabase-enterprise/caching/components/DatabaseCacheTimeField/DatabaseCacheTimeField.tsx:51
 msgid "cache settings page"
@@ -20025,7 +20025,7 @@ msgstr "Esto eliminará todas las suscripciones o alertas del panel de control q
 
 #: enterprise/frontend/src/metabase-enterprise/audit_app/components/UnsubscribeUserForm/UnsubscribeUserForm.jsx:45
 msgid "This does not affect email distribution lists that are managed outside of Metabase."
-msgstr "Esto no afecta a las listas de distribución de correo electrónico que se administran fuera de Metabase."
+msgstr "Esto no afecta a las listas de distribución de correo electrónico que se administran fuera de VaypolBI."
 
 #: enterprise/frontend/src/metabase-enterprise/audit_app/components/AuditSidebar/AuditSidebar.jsx:36
 #: enterprise/frontend/src/metabase-enterprise/audit_app/pages/AuditUsers.jsx:11
@@ -20077,7 +20077,7 @@ msgstr "¿No ves algo en la lista aquí?"
 
 #: frontend/src/metabase/account/notifications/components/HelpModal/HelpModal.jsx:29
 msgid "It’s possible you may also receive emails from Metabase if you’re a member of an email distribution list, like “team@mycompany.com” and that list is used as the recipient for an alert or dashboard subscription instead of your individual email."
-msgstr "Es posible que también recibas correos electrónicos de Metabase si eres miembro de una lista de distribución de correo electrónico, como \"equipo@miempresa.com\" y esa lista se utiliza como destinatario de una alerta o suscripción al panel en lugar de tu correo electrónico individual."
+msgstr "Es posible que también recibas correos electrónicos de VaypolBI si eres miembro de una lista de distribución de correo electrónico, como \"equipo@miempresa.com\" y esa lista se utiliza como destinatario de una alerta o suscripción al panel en lugar de tu correo electrónico individual."
 
 #: frontend/src/metabase/account/notifications/components/HelpModal/HelpModal.jsx:33
 msgid "Hopefully they’ll be able to help you out!"
@@ -20089,7 +20089,7 @@ msgstr "tu administrador de esta instalación"
 
 #: frontend/src/metabase/account/notifications/components/HelpModal/HelpModal.jsx:53
 msgid "Metabase doesn’t manage those lists, so we’d recommend contacting {0}. "
-msgstr "Metabase no administra esas listas, por lo que le recomendamos que contactes {0} "
+msgstr "VaypolBI no administra esas listas, por lo que le recomendamos que contactes {0} "
 
 #: frontend/src/metabase/account/notifications/components/NotificationCard/NotificationCard.jsx:100
 msgid "Created by you"
@@ -20355,7 +20355,7 @@ msgstr "Color barra navegación"
 
 #: enterprise/frontend/src/metabase-enterprise/whitelabel/components/ColorSchemeWidget.jsx:25
 msgid "The top nav bar of Metabase. Defaults to the Primary Color if not set."
-msgstr "La barra de navegación superior de Metabase. El valor predeterminado es el color primario si no se establece."
+msgstr "La barra de navegación superior de VaypolBI. El valor predeterminado es el color primario si no se establece."
 
 #: enterprise/frontend/src/metabase-enterprise/whitelabel/components/ColorSchemeWidget.jsx:23
 msgid "Accent 1"
@@ -20408,7 +20408,7 @@ msgstr "Archivo JSON de Cuenta de Servicio"
 
 #: frontend/src/metabase/entities/databases/big-query-fields.js:93
 msgid "This JSON file contains the credentials Metabase needs to read and query your dataset."
-msgstr "Este archivo JSON contiene las credenciales que Metabase necesita para leer y consultar tus datos."
+msgstr "Este archivo JSON contiene las credenciales que VaypolBI necesita para leer y consultar tus datos."
 
 #: metabase/driver/common.clj:130
 msgid "Rerun queries for simple explorations"
@@ -20424,11 +20424,11 @@ msgstr "Elige cuando han de ocurrir sincronizaciones y escaneos"
 
 #: metabase/driver/common.clj:141
 msgid "By default, Metabase does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, turn this on to make changes."
-msgstr "De forma predeterminada, Metabase realiza una sincronización horaria ligera y un análisis diario intensivo de los valores de campo. Si tienes una base de datos grande, actíva esto para realizar cambios."
+msgstr "De forma predeterminada, VaypolBI realiza una sincronización horaria ligera y un análisis diario intensivo de los valores de campo. Si tienes una base de datos grande, actíva esto para realizar cambios."
 
 #: metabase/driver/common.clj:183
 msgid "This enables Metabase to scan for additional field values during syncs allowing smarter behavior, like improved auto-binning on your bar charts."
-msgstr "Esto permite que Metabase busque valores de campo adicionales durante las sincronizaciones, lo que permite un comportamiento más inteligente, como una clasificación automática mejorada en tus gráficos de barras."
+msgstr "Esto permite que VaypolBI busque valores de campo adicionales durante las sincronizaciones, lo que permite un comportamiento más inteligente, como una clasificación automática mejorada en tus gráficos de barras."
 
 #: frontend/src/metabase/setup/components/UserForm/UserForm.tsx:83
 msgid "Company or team name"
@@ -20548,7 +20548,7 @@ msgstr "Nuestro {0}"
 
 #: frontend/src/metabase/databases/components/DatabaseNameField/DatabaseNameField.tsx:18
 msgid "Choose what this data will be called in Metabase."
-msgstr "Elige cómo se llamarán estos datos en Metabase."
+msgstr "Elige cómo se llamarán estos datos en VaypolBI."
 
 #: frontend/src/metabase/admin/settings/selectors.js:640
 #: frontend/src/metabase/containers/DataPicker/constants.tsx:27
@@ -20975,7 +20975,7 @@ msgstr "DB {0} tenía un ID de conjunto de datos codificado; cambiando a un patr
 
 #: src/metabase/analytics/snowplow.clj
 msgid "Unique identifier to be used in Snowplow analytics, to identify this instance of Metabase."
-msgstr "Identificador único que se usará en el análisis de Snowplow para identificar esta instancia de Metabase."
+msgstr "Identificador único que se usará en el análisis de Snowplow para identificar esta instancia de VaypolBI."
 
 #: src/metabase/analytics/snowplow.clj
 msgid "This is a public setting since some analytics events are sent prior to initial setup."
@@ -21007,7 +21007,7 @@ msgstr "Error al enviar el evento de análisis Snowplow {0}"
 
 #: metabase/analytics/snowplow.clj:78
 msgid "The approximate timestamp at which this instance of Metabase was created, for inclusion in analytics."
-msgstr "La marca de tiempo aproximada en la que se creó esta instancia de Metabase, para su inclusión en el análisis."
+msgstr "La marca de tiempo aproximada en la que se creó esta instancia de VaypolBI, para su inclusión en el análisis."
 
 #: metabase/models/card.clj:769
 msgid "Unverified due to edit"
@@ -21127,7 +21127,7 @@ msgstr "En la mayoría de los casos, debería estar bien dejar esto sincronizar 
 
 #: src/metabase/driver/common.clj
 msgid "If your database is behind a firewall, you may need to allow connections from our Metabase Cloud IP addresses:"
-msgstr "Si tu base de datos está protegida por un cortafuegos, es posible que tengas que permitir conexiones desde nuestras direcciones IP de Metabase Cloud:"
+msgstr "Si tu base de datos está protegida por un cortafuegos, es posible que tengas que permitir conexiones desde nuestras direcciones IP de VaypolBI Cloud:"
 
 #: metabase/driver/common.clj:334
 msgid "Error querying database {0} for current time: {1}"
@@ -21139,7 +21139,7 @@ msgstr "Error: varios valores especificados para el parámetro; Los parámetros 
 
 #: metabase/driver/h2.clj:96
 msgid "The local path relative to where Metabase is running from. Your string should not include the .mv.db extension."
-msgstr "La ruta local relativa desde donde se ejecuta Metabase. La cadena no debe incluir la extensión .mv.db."
+msgstr "La ruta local relativa desde donde se ejecuta VaypolBI. La cadena no debe incluir la extensión .mv.db."
 
 #: metabase/driver/postgres.clj:138
 msgid "SSL Mode"
@@ -21234,7 +21234,7 @@ msgstr "Todos menos..."
 
 #: metabase/driver/util.clj:293
 msgid "Comma separated names of {0} that <strong>should</strong> appear in Metabase"
-msgstr "Nombres separados por comas de {0} que <strong>deberían</strong> aparecer en Metabase"
+msgstr "Nombres separados por comas de {0} que <strong>deberían</strong> aparecer en VaypolBI"
 
 #: metabase/driver/util.clj:295 metabase/driver/util.clj:302
 msgid "You can use patterns like <strong>auth*</strong> to match multiple {0}"
@@ -21242,7 +21242,7 @@ msgstr "Puedes usar patrones como <strong>auth*</strong> para hacer coincidir m�
 
 #: metabase/driver/util.clj:300
 msgid "Comma separated names of {0} that <strong>should NOT</strong> appear in Metabase"
-msgstr "Nombres separados por comas de {0} que <strong>NO deberían</strong> aparecer en Metabase"
+msgstr "Nombres separados por comas de {0} que <strong>NO deberían</strong> aparecer en VaypolBI"
 
 #: metabase/email/messages.clj:703
 msgid "Your Slack connection stopped working"
@@ -21270,7 +21270,7 @@ msgstr "Token de inicio de sesión de Google autenticado con éxito para: {0} {1
 
 #: src/metabase/integrations/slack.clj
 msgid "Deprecated Slack API token for connecting the Metabase Slack bot."
-msgstr "Token de API de Slack en desuso para conectar el bot Metabase Slack."
+msgstr "Token de API de Slack en desuso para conectar el bot VaypolBI Slack."
 
 #: src/metabase/integrations/slack.clj
 msgid "Please use a new Slack app integration instead."
@@ -21278,11 +21278,11 @@ msgstr "Utiliza una nueva integración de la aplicación Slack en su lugar."
 
 #: src/metabase/integrations/slack.clj
 msgid "Bot user OAuth token for connecting the Metabase Slack app."
-msgstr "Token OAuth de usuario de bot para conectar la aplicación Metabase Slack."
+msgstr "Token OAuth de usuario de bot para conectar la aplicación VaypolBI Slack."
 
 #: src/metabase/integrations/slack.clj
 msgid "This should be used for all new Slack integrations starting in Metabase v0.42.0."
-msgstr "Esto debe usarse para todas las nuevas integraciones de Slack a partir de Metabase v0.42.0."
+msgstr "Esto debe usarse para todas las nuevas integraciones de Slack a partir de VaypolBI v0.42.0."
 
 #: src/metabase/integrations/slack.clj
 msgid "Whether the current Slack app token, if set, is valid."
@@ -21294,7 +21294,7 @@ msgstr "'falso' si una solicitud de API de Slack devuelve un error de autenticac
 
 #: metabase/integrations/slack.clj:77
 msgid "The name of the channel to which Metabase files should be initially uploaded"
-msgstr "El nombre del canal en el que se deben cargar inicialmente los archivos Metabase"
+msgstr "El nombre del canal en el que se deben cargar inicialmente los archivos VaypolBI"
 
 #: metabase/integrations/slack.clj:119
 msgid "🔒 Your Slack authorization token is invalid or has been revoked. Please update your integration in Admin Settings -> Slack."
@@ -21354,7 +21354,7 @@ msgstr "{0} apunta a un archivo inexistente: {1}"
 
 #: metabase/models/secret.clj:190
 msgid "{0} (a local file path) cannot be used in Metabase hosted environment"
-msgstr "{0} (una ruta de archivo local) no se puede usar en el entorno alojado de Metabase"
+msgstr "{0} (una ruta de archivo local) no se puede usar en el entorno alojado de VaypolBI"
 
 #: metabase/models/setting.clj:576
 msgid "Error parsing Setting {0}: {1}"
@@ -21366,7 +21366,7 @@ msgstr "Los valores globales de sitio no están permitidos para la Configuració
 
 #: metabase/models/setting.clj:722
 msgid "Setting {0} is deprecated as of Metabase {1} and may be removed in a future version."
-msgstr "La configuración {0} está obsoleta a partir de Metabase {1} y puede eliminarse en una versión futura."
+msgstr "La configuración {0} está obsoleta a partir de VaypolBI {1} y puede eliminarse en una versión futura."
 
 #: metabase/models/setting.clj:934
 msgid "Setting name ''{0}'' is retired; use a different name instead"
@@ -21378,7 +21378,7 @@ msgstr "Booleano que indica si los datos analíticos deben enviarse a Google Ana
 
 #: metabase/public_settings.clj:378
 msgid "Metabase version for which a notice about usage of deprecated features has been shown."
-msgstr "Versión de la metabase para la que se ha mostrado un aviso sobre el uso de funciones obsoletas."
+msgstr "Versión de la VaypolBI para la que se ha mostrado un aviso sobre el uso de funciones obsoletas."
 
 #: metabase/public_settings.clj:529
 msgid "Whether or not to display a message about pinning dashboards. It will also be hidden if any dashboards are pinned. Admins might hide this to direct users to better content than raw data"
@@ -21398,11 +21398,11 @@ msgstr " aunque se usa para establecer la variable de sesión WEEK_START en Snow
 
 #: metabase/public_settings.clj:680
 msgid "Error fetching Metabase Cloud gateway IP addresses:"
-msgstr "Error al obtener las direcciones IP de la puerta de enlace de Metabase Cloud:"
+msgstr "Error al obtener las direcciones IP de la puerta de enlace de VaypolBI Cloud:"
 
 #: metabase/public_settings.clj:684
 msgid "Metabase Cloud gateway IP addresses, to configure connections to DBs behind firewalls"
-msgstr "Direcciones IP de puerta de enlace Metabase Cloud, para configurar conexiones a bases de datos detrás de cortafuegos"
+msgstr "Direcciones IP de puerta de enlace VaypolBI Cloud, para configurar conexiones a bases de datos detrás de cortafuegos"
 
 #: src/metabase/public_settings.clj
 msgid "Whether an introductory modal should be shown after the next database connection is added."
@@ -21530,7 +21530,7 @@ msgstr "Este token no parece ser válido. Verifícalo y pónte en contacto con e
 
 #: frontend/src/metabase/admin/settings/hooks/use-license.ts:8
 msgid "We're having trouble validating your token. Please double-check that your instance can connect to Metabase's servers."
-msgstr "Estamos teniendo problemas para validar tu token. Vuelve a verificar que tu instancia puede conectarse a los servidores de Metabase."
+msgstr "Estamos teniendo problemas para validar tu token. Vuelve a verificar que tu instancia puede conectarse a los servidores de VaypolBI."
 
 #: frontend/src/metabase-lib/expressions/pratt/compiler.ts:44
 #: frontend/src/metabase-lib/expressions/pratt/compiler.ts:217
@@ -21607,7 +21607,7 @@ msgstr "Facturación"
 
 #: enterprise/frontend/src/metabase-enterprise/license/components/LicenseAndBillingSettings/LicenseAndBillingSettings.tsx:119
 msgid "Manage your Cloud account, including billing preferences, in your Metabase Store account."
-msgstr "Administra tu cuenta en la nube, incluidas las preferencias de facturación, en tu cuenta de Metabase Store."
+msgstr "Administra tu cuenta en la nube, incluidas las preferencias de facturación, en tu cuenta de VaypolBI Store."
 
 #: enterprise/frontend/src/metabase-enterprise/license/components/LicenseAndBillingSettings/LicenseAndBillingSettings.tsx:133
 msgid "To manage your billing preferences, please email {0}"
@@ -21670,7 +21670,7 @@ msgstr "Base de datos de muestra"
 
 #: frontend/src/metabase/databases/components/DatabaseSyncModal/DatabaseSyncModal.tsx:34
 msgid "Have a look around your Metabase in the meantime if you want to get a head start."
-msgstr "Mientras tanto, eche un vistazo a tu Metabase si quieres iniciar tu aprendizaje."
+msgstr "Mientras tanto, eche un vistazo a tu VaypolBI si quieres iniciar tu aprendizaje."
 
 #: frontend/src/metabase/databases/components/DatabaseSyncModal/DatabaseSyncModal.tsx:38
 msgid "Explore sample data"
@@ -21749,7 +21749,7 @@ msgstr "Invitaré a un compañero de equipo a conectar la base de datos."
 
 #: frontend/src/metabase/setup/components/PreferencesStep/PreferencesStep.tsx:74
 msgid "In order to help us improve Metabase, we'd like to collect certain data about product usage."
-msgstr "Para ayudarnos a mejorar Metabase, nos gustaría recopilar ciertos datos sobre el uso del producto."
+msgstr "Para ayudarnos a mejorar VaypolBI, nos gustaría recopilar ciertos datos sobre el uso del producto."
 
 #: frontend/src/metabase/setup/components/PreferencesStep/PreferencesStep.tsx:79
 msgid "Here's a full list of what we track and why."
@@ -21855,12 +21855,12 @@ msgstr "Tu licencia Premium Embedding está activa hasta el {0}."
 
 #: frontend/src/metabase/admin/settings/containers/PremiumEmbeddingLicensePage/PremiumEmbeddingLicensePage.tsx:106
 msgid "Enter the token you bought from the Metabase Store below."
-msgstr "Ingresa el token que compró en Metabase Store a continuación."
+msgstr "Ingresa el token que compró en VaypolBI Store a continuación."
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingCustomizationInfo.tsx:12
 msgid "Looking to remove the “Powered by Metabase” logo, customize colors\n"
 "and make it your own? {0}"
-msgstr "¿Quieres eliminar el logotipo “Powered by Metabase”, personalizar los colores\n"
+msgstr "¿Quieres eliminar el logotipo “Powered by VaypolBI”, personalizar los colores\n"
 "y hacerlo tuyo? {0}"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackDeleteModal/SlackDeleteModal.tsx:23
@@ -21897,7 +21897,7 @@ msgstr "Invitar un compañero de equipo"
 
 #: frontend/src/metabase/home/homepage/components/StartSection/StartSection.tsx:117
 msgid "Connect your data to get the most out of Metabase"
-msgstr "Conecta tus datos para aprovechar al máximo Metabase"
+msgstr "Conecta tus datos para aprovechar al máximo VaypolBI"
 
 #: frontend/src/metabase/home/homepage/components/StartSection/StartSection.tsx:119
 msgid "If you need help, you can {0} or {1}."
@@ -21950,7 +21950,7 @@ msgstr "Utiliza la tecla de tabulación para navegar a través de configuracione
 
 #: frontend/src/metabase/admin/settings/components/SettingsLicense/SettingsLicense.tsx:31
 msgid "Metabase is open source and will be free forever – but by upgrading you can have priority support, more tools to help you share your insights with your teams and powerful options to help you create seamless, interactive data experiences for your customers."
-msgstr "Metabase es de código abierto y será gratuito para siempre, pero al actualizar puedes tener soporte prioritario, más herramientas para ayudarte a compartir tus conocimientos con tus equipos y opciones poderosas para ayudarte a crear experiencias de datos interactivas y sin inconvenientes para tus clientes."
+msgstr "VaypolBI es de código abierto y será gratuito para siempre, pero al actualizar puedes tener soporte prioritario, más herramientas para ayudarte a compartir tus conocimientos con tus equipos y opciones poderosas para ayudarte a crear experiencias de datos interactivas y sin inconvenientes para tus clientes."
 
 #: frontend/src/metabase/admin/settings/components/SettingsLicense/SettingsLicense.tsx:33
 msgid "Want to know more?"
@@ -21983,7 +21983,7 @@ msgstr "La app de Slack no está funcionando."
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:49
 #: frontend/src/metabase/admin/settings/slack/components/SlackStatus/SlackStatus.tsx:51
 msgid "Metabase on Slack"
-msgstr "Metabase en Slack"
+msgstr "VaypolBI en Slack"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackStatus/SlackStatus.tsx:56
 msgid "Need help? {0}."
@@ -22012,7 +22012,7 @@ msgstr "Te recomendamos {0}, consulta las instrucciones a continuación:"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:59
 msgid "Bring the power of Metabase to your Slack #channels."
-msgstr "Lleva el poder de Metabase a tus #canales de Slack."
+msgstr "Lleva el poder de VaypolBI a tus #canales de Slack."
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:60
 msgid "Follow these steps to connect to Slack:"
@@ -22024,7 +22024,7 @@ msgstr "1. Crea tu aplicación de Slack"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:101
 msgid "To create your Metabase integration on Slack you’ll need to set up some things."
-msgstr "Para crear tu integración Metabase en Slack, deberás configurar algunas cosas."
+msgstr "Para crear tu integración VaypolBI en Slack, deberás configurar algunas cosas."
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:102
 msgid "First, go to {0}, hit “{1}” and pick “{2}”"
@@ -22044,7 +22044,7 @@ msgstr "Desde un manifiesto de aplicación."
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:128
 msgid "2. Copy the Metabase manifest"
-msgstr "2. Copia el manifiesto de Metabase"
+msgstr "2. Copia el manifiesto de VaypolBI"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:130
 msgid "Select your workspace and then copy our {0} below and paste it in to create the app. In the following screen, click “{1}” and authorize it."
@@ -22333,11 +22333,11 @@ msgstr "Borrar {0}?"
 
 #: frontend/src/metabase/databases/components/DatabaseEngineWarning/DatabaseEngineWarning.tsx:107
 msgid "This is a community-developed driver and not supported by Metabase. "
-msgstr "Esto es un driver desarrollado por la comunidad y no está soportado por Metabase. "
+msgstr "Esto es un driver desarrollado por la comunidad y no está soportado por VaypolBI. "
 
 #: frontend/src/metabase/databases/components/DatabaseEngineWarning/DatabaseEngineWarning.tsx:134
 msgid "This is a partner-developed driver. Though Metabase can’t provide support for it, if you need help you can contact the fine folks at "
-msgstr "Estp es un driver desarrollado por un socio. Aunque Metabase no puede dar soporte, puedes pedir ayuda a la gente de "
+msgstr "Estp es un driver desarrollado por un socio. Aunque VaypolBI no puede dar soporte, puedes pedir ayuda a la gente de "
 
 #: frontend/src/metabase/components/Toaster/Toaster.tsx:25
 #: frontend/src/metabase/dashboard/containers/DashboardApp/DashboardApp.jsx:176
@@ -22457,7 +22457,7 @@ msgstr "Encantado de verte, {0}"
 
 #: frontend/src/metabase/home/components/HomeHelpCard/HomeHelpCard.tsx:11
 msgid "Metabase tips"
-msgstr "Consejos de Metabase"
+msgstr "Consejos de VaypolBI"
 
 #: frontend/src/metabase/home/components/HomePopularSection/HomePopularSection.tsx:46
 #: frontend/src/metabase/home/components/HomePopularSection/HomePopularSection.tsx:59
@@ -22486,7 +22486,7 @@ msgstr "Continua donde lo dejaste"
 
 #: frontend/src/metabase/home/components/HomeXraySection/HomeXraySection.tsx:69
 msgid "Try out these sample x-rays to see what Metabase can do."
-msgstr "Prueba estas radiografías de muestra para ver qué puede hacer Metabase."
+msgstr "Prueba estas radiografías de muestra para ver qué puede hacer VaypolBI."
 
 #: frontend/src/metabase/home/components/HomeXraySection/HomeXraySection.tsx:73
 msgid "Here are some explorations of the"
@@ -22625,11 +22625,11 @@ msgstr "Ejecución de v2.0"
 
 #: frontend/src/metabase/timelines/collections/components/TimelineEmptyState/TimelineEmptyState.tsx:69
 msgid "Add events to Metabase to show important milestones, launches, or anything else, right alongside your data."
-msgstr "Añade eventos a Metabase para mostrar hitos importantes, lanzamientos o cualquier otra cosa, junto con tus datos."
+msgstr "Añade eventos a VaypolBI para mostrar hitos importantes, lanzamientos o cualquier otra cosa, junto con tus datos."
 
 #: frontend/src/metabase/timelines/collections/components/TimelineEmptyState/TimelineEmptyState.tsx:70
 msgid "Events in Metabase let you see important milestones, launches, or anything else, right alongside your data."
-msgstr "Los eventos en Metabase te permiten ver hitos importantes, lanzamientos o cualquier otra cosa, junto con tus datos."
+msgstr "Los eventos en VaypolBI te permiten ver hitos importantes, lanzamientos o cualquier otra cosa, junto con tus datos."
 
 #: frontend/src/metabase/timelines/collections/components/TimelineCard/TimelineCard.tsx:50
 #: frontend/src/metabase/timelines/common/components/TimelinePicker/TimelinePicker.tsx:65
@@ -22657,11 +22657,11 @@ msgstr "Mover {0}"
 
 #: frontend/src/metabase/timelines/questions/components/TimelineEmptyState/TimelineEmptyState.tsx:30
 msgid "Add events to Metabase to show helpful context alongside your data."
-msgstr "Añade eventos a Metabase para mostrar un contexto útil junto con tus datos."
+msgstr "Añade eventos a VaypolBI para mostrar un contexto útil junto con tus datos."
 
 #: frontend/src/metabase/timelines/questions/components/TimelineEmptyState/TimelineEmptyState.tsx:31
 msgid "Events in Metabase let you see helpful context alongside your data."
-msgstr "Los eventos en Metabase te permiten ver un contexto útil junto con tus datos."
+msgstr "Los eventos en VaypolBI te permiten ver un contexto útil junto con tus datos."
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/MetadataTable/MetadataTable.tsx:33
 msgid "Original schema"
@@ -22669,7 +22669,7 @@ msgstr "Esquema original"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:98
 msgid "Click the button below to begin creating your Slack App using the Metabase configuration."
-msgstr "Haz clic en el botón a continuación para comenzar a crear tu aplicación de Slack utilizando la configuración de Metabase."
+msgstr "Haz clic en el botón a continuación para comenzar a crear tu aplicación de Slack utilizando la configuración de VaypolBI."
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:99
 msgid "Once created, click “{0}” to authorize it."
@@ -22941,7 +22941,7 @@ msgstr "Cambiar a visualización"
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget.jsx:139
 msgid "Mappings allow Metabase to automatically add and remove users from groups based on the membership information provided by the\n"
 "directory server. Users are only ever added to or removed from mapped groups."
-msgstr "Las asignaciones permiten que Metabase agregue y elimine automáticamente usuarios de grupos en función de la información de membresía proporcionada por el servidor de directorio. Los usuarios solo se agregan o eliminan de los grupos asignados."
+msgstr "Las asignaciones permiten que VaypolBI agregue y elimine automáticamente usuarios de grupos en función de la información de membresía proporcionada por el servidor de directorio. Los usuarios solo se agregan o eliminan de los grupos asignados."
 
 #: metabase_enterprise/advanced_config/models/pulse_channel.clj:10
 msgid "Allowed email address domain(s) for new Dashboard Subscriptions and Alerts. To specify multiple domains, separate each domain with a comma, with no space in between (e.g., \"domain1,domain2\"). To allow all domains, leave the field empty. This setting doesn't affect existing subscriptions."
@@ -23324,7 +23324,7 @@ msgstr "Preguntas guardadas"
 
 #: frontend/src/metabase/admin/settings/selectors.js:641
 msgid "Enabling cache will create tables for your models in a dedicated schema and Metabase will refresh them on a schedule. Questions based on your models will query these tables. {0}."
-msgstr "Habilitar la memoria caché creará tablas para tus modelos en un esquema dedicado y Metabase las actualizará según un cronograma. Las preguntas basadas en tus modelos consultarán estas tablas. {0}."
+msgstr "Habilitar la memoria caché creará tablas para tus modelos en un esquema dedicado y VaypolBI las actualizará según un cronograma. Las preguntas basadas en tus modelos consultarán estas tablas. {0}."
 
 #: frontend/src/metabase/admin/settings/selectors.js:439
 msgid "Refresh every"
@@ -23608,7 +23608,7 @@ msgstr "Mover, archivar, y más..."
 
 #: frontend/src/metabase/sharing/components/SlackChannelField/SlackChannelField.tsx:71
 msgid "In order to send subscriptions and alerts to private Slack channels, you must first add the Metabase bot to them."
-msgstr "Para enviar suscripciones y alertas a canales privados de Slack, primero debes agregarles el bot Metabase."
+msgstr "Para enviar suscripciones y alertas a canales privados de Slack, primero debes agregarles el bot VaypolBI."
 
 #: enterprise/frontend/src/metabase-enterprise/whitelabel/components/ColorResetModal/ColorResetModal.tsx:22
 msgid "Are you sure you want to reset to default colors?"
@@ -23719,7 +23719,7 @@ msgstr "Muestra nuestro pequeño amigo en la página de inicio"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingCustomizationWidget/EmbeddingCustomizationWidget.tsx:13
 msgid "In order to remove the Metabase logo from embeds, you can always upgrade to {0}"
-msgstr "Para eliminar el logotipo de Metabase de las incrustaciones, siempre puedes actualizar a {0}"
+msgstr "Para eliminar el logotipo de VaypolBI de las incrustaciones, siempre puedes actualizar a {0}"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingCustomizationWidget/EmbeddingCustomizationWidget.tsx:15
 msgid "one of our paid plans."
@@ -23727,11 +23727,11 @@ msgstr "uno de nuestros planes de pago."
 
 #: frontend/src/metabase/admin/settings/components/widgets/FullAppEmbeddingLinkWidget/FullAppEmbeddingLinkWidget.tsx:13
 msgid "embedding the entire metabase app"
-msgstr "incrustando toda la aplicación de metabase"
+msgstr "incrustando toda la aplicación de VaypolBI"
 
 #: frontend/src/metabase/admin/settings/components/widgets/FullAppEmbeddingLinkWidget/FullAppEmbeddingLinkWidget.tsx:23
 msgid "With {0} you can embed the full Metabase app and enable your users to drill-through to charts, browse collections, and use the graphical query builder. You can also get priority support, more tools to help you share your insights with your teams and powerful options to help you create seamless, interactive data experiences for your customers."
-msgstr "Con {0} puedes incrustar la aplicación Metabase completa y permitir que tus usuarios obtengan detalles de los gráficos, busquen colecciones y utilicen el generador gráfico de consultas. También puedes obtener soporte prioritario, más herramientas para ayudarte a compartir tus conocimientos con tus equipos y opciones poderosas para ayudarte a crear experiencias de datos interactivas y fluidas para tus clientes."
+msgstr "Con {0} puedes incrustar la aplicación VaypolBI completa y permitir que tus usuarios obtengan detalles de los gráficos, busquen colecciones y utilicen el generador gráfico de consultas. También puedes obtener soporte prioritario, más herramientas para ayudarte a compartir tus conocimientos con tus equipos y opciones poderosas para ayudarte a crear experiencias de datos interactivas y fluidas para tus clientes."
 
 #: frontend/src/metabase/admin/settings/components/widgets/FullAppEmbeddingLinkWidget/FullAppEmbeddingLinkWidget.tsx:16
 msgid "some of our paid plans,"
@@ -23779,7 +23779,7 @@ msgstr "Incrustando"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLegalese/EmbeddingLegalese.tsx:24
 msgid "Embed dashboards, questions, or the entire Metabase app into your application. Integrate with your server code to create a secure environment, limited to specific users or organizations."
-msgstr "Incrusta cuadros de mando, preguntas o toda la aplicación Metabase en tu aplicación. Integra con tu código de servidor para crear un entorno seguro, limitado a usuarios u organizaciones específicas."
+msgstr "Incrusta cuadros de mando, preguntas o toda la aplicación VaypolBI en tu aplicación. Integra con tu código de servidor para crear un entorno seguro, limitado a usuarios u organizaciones específicas."
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLegalese/EmbeddingLegalese.tsx:28
 msgid "By enabling embedding you're agreeing to"
@@ -23799,7 +23799,7 @@ msgid "When you embed charts or dashboards from Metabase in your own\n"
 "application, that application isn't subject to the Affero General Public\n"
 "License that covers the rest of Metabase, provided you keep the Metabase\n"
 "logo and the \"Powered by Metabase\" visible on those embeds."
-msgstr "Cuando incrustas gráficos o tableros de Metabase en tu propia aplicación,\n"
+msgstr "Cuando incrustas gráficos o tableros de VaypolBI en tu propia aplicación,\n"
 "esa aplicación no está sujeta a la Licencia Affero General Public\n"
 "que cubre el resto de Metabase, siempre que mantengas el\n"
 "logotipo de Metabase y el \"Powered by Metabase\" visible en esas incrustaciones."
@@ -23845,7 +23845,7 @@ msgstr "1. Haz clic en el botón de abajo y crea tu aplicación de Slack"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:101
 msgid "First, {0} using the Metabase configuration. Once created, click “${ 1 }” to authorize it."
-msgstr "Primero, {0} usando la configuración de Metabase. Una vez creado, haz clic en \"${ 1 }\" para autorizarlo."
+msgstr "Primero, {0} usando la configuración de VaypolBI. Una vez creado, haz clic en \"${ 1 }\" para autorizarlo."
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:102
 msgid "click the button below to create your Slack App"
@@ -23988,7 +23988,7 @@ msgstr "Fuerte"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/components/EmbeddingAppOriginDescription/EmbeddingAppOriginDescription.tsx:8
 msgid "With this Pro/Enterprise feature you can embed the full Metabase app. Enable your users to drill-through to charts, browse collections, and use the graphical query builder. {0}"
-msgstr "Con esta función Pro/Enterprise, puedes integrar la aplicación Metabase completa. Permite que tus usuarios obtengan detalles de los gráficos, busquen colecciones y utilicen el generador gráfico de consultas. {0}"
+msgstr "Con esta función Pro/Enterprise, puedes integrar la aplicación VaypolBI completa. Permite que tus usuarios obtengan detalles de los gráficos, busquen colecciones y utilicen el generador gráfico de consultas. {0}"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/components/EmbeddingAppOriginDescription/EmbeddingAppOriginDescription.tsx:19
 msgid "Authorized origins"
@@ -24077,7 +24077,7 @@ msgstr "Incrustación completa de la aplicación"
 
 #: frontend/src/metabase/admin/settings/selectors.js:481
 msgid "With this Pro/Enterprise feature you can embed the full Metabase app. Enable your users to drill-through to charts, browse collections, and use the graphical query builder."
-msgstr "Con esta función Pro/Enterprise, puedes integrar la aplicación Metabase completa. Permite que tus usuarios obtengan detalles de los gráficos, busquen colecciones y utilicen el generador gráfico de consultas."
+msgstr "Con esta función Pro/Enterprise, puedes integrar la aplicación VaypolBI completa. Permite que tus usuarios obtengan detalles de los gráficos, busquen colecciones y utilicen el generador gráfico de consultas."
 
 #: frontend/src/metabase/admin/settings/selectors.js:533
 msgid "Standalone Embed Secret Key used to sign JSON Web Tokens for requests to /api/embed endpoints. This lets you create a secure environment limited to specific users or organizations."
@@ -24244,7 +24244,7 @@ msgstr "Booleano que indica si un recopilador Snowplow está disponible para rec
 
 #: metabase/analytics/snowplow.clj:28
 msgid "Unique identifier to be used in Snowplow analytics, to identify this instance of Metabase. This is a public setting since some analytics events are sent prior to initial setup."
-msgstr "Identificador único que se usará en el análisis de Snowplow para identificar esta instancia de Metabase. Esta es una configuración pública ya que algunos eventos de análisis se envían antes de la configuración inicial."
+msgstr "Identificador único que se usará en el análisis de Snowplow para identificar esta instancia de VaypolBI. Esta es una configuración pública ya que algunos eventos de análisis se envían antes de la configuración inicial."
 
 #: metabase/api/database.clj:708 metabase/driver/util.clj:68
 #: metabase/driver/util.clj:40 metabase/driver/util.clj:56
@@ -24300,11 +24300,11 @@ msgstr "Información del Sistema:\n"
 
 #: metabase/driver/common.clj:159
 msgid "Metabase can scan the values present in each field in this database to enable checkbox filters in dashboards and questions. This can be a somewhat resource-intensive process, particularly if you have a very large database. When should Metabase automatically scan and cache field values?"
-msgstr "Metabase puede escanear los valores presentes en cada campo de esta base de datos para habilitar filtros de casillas de verificación en cuadros de mando y preguntas. Este puede ser un proceso algo intensivo en recursos, especialmente si tienes una base de datos muy grande. ¿Cuándo debería Metabase escanear y almacenar en caché automáticamente los valores de los campos?"
+msgstr "VaypolBI puede escanear los valores presentes en cada campo de esta base de datos para habilitar filtros de casillas de verificación en cuadros de mando y preguntas. Este puede ser un proceso algo intensivo en recursos, especialmente si tienes una base de datos muy grande. ¿Cuándo debería VaypolBI escanear y almacenar en caché automáticamente los valores de los campos?"
 
 #: metabase/driver/common.clj:220
 msgid "If your database is behind a firewall, you may need to allow connections from our Metabase [Cloud IP addresses](https://www.metabase.com/cloud/docs/ip-addresses-to-whitelist.html):"
-msgstr "Si tu base de datos está protegida por un firewall, es posible que debas permitir conexiones desde nuestra metabase [direcciones IP de la nube] (https://www.metabase.com/cloud/docs/ip-addresses-to-whitelist.html):"
+msgstr "Si tu base de datos está protegida por un firewall, es posible que debas permitir conexiones desde nuestra VaypolBI [direcciones IP de la nube] (https://www.VaypolBI.com/cloud/docs/ip-addresses-to-whitelist.html):"
 
 #: metabase/driver/common.clj:177
 msgid "Unfold JSON Columns"
@@ -24426,15 +24426,15 @@ msgstr "[{0}] La actualización de caché del modelo falló para {1}"
 
 #: metabase/integrations/google.clj:87
 msgid "Google Sign-In token appears to be incorrect. Double check that it matches in Google and Metabase."
-msgstr "El token de inicio de sesión de Google parece ser incorrecto. Vuelve a verificar que coincide en Google y Metabase."
+msgstr "El token de inicio de sesión de Google parece ser incorrecto. Vuelve a verificar que coincide en Google y VaypolBI."
 
 #: metabase/integrations/slack.clj:22
 msgid "Deprecated Slack API token for connecting the Metabase Slack bot. Please use a new Slack app integration instead."
-msgstr "Token de API de Slack en desuso para conectar el bot Metabase Slack. Utiliza una nueva integración de la aplicación Slack en su lugar."
+msgstr "Token de API de Slack en desuso para conectar el bot VaypolBI Slack. Utiliza una nueva integración de la aplicación Slack en su lugar."
 
 #: metabase/integrations/slack.clj:31
 msgid "Bot user OAuth token for connecting the Metabase Slack app. This should be used for all new Slack integrations starting in Metabase v0.42.0."
-msgstr "Token OAuth de usuario de bot para conectar la aplicación Metabase Slack. Esto debe usarse para todas las nuevas integraciones de Slack a partir de Metabase v0.42.0."
+msgstr "Token OAuth de usuario de bot para conectar la aplicación VaypolBI Slack. Esto debe usarse para todas las nuevas integraciones de Slack a partir de VaypolBI v0.42.0."
 
 #: metabase/integrations/slack.clj:44
 msgid "Whether the current Slack app token, if set, is valid. Set to 'false' if a Slack API request returns an auth error."
@@ -24482,7 +24482,7 @@ msgstr "No se puede actualizar el tipo o hash_key para FieldValues."
 
 #: metabase/models/humanization.clj:77
 msgid "To make table and field names more human-friendly, Metabase will replace dashes and underscores in them with spaces. We’ll capitalize each word while at it, so ‘last_visited_at’ will become ‘Last Visited At’."
-msgstr "Para hacer que los nombres de tablas y campos sean más amigables para los humanos, Metabase reemplazará los guiones y guiones bajos con espacios. Pondremos en mayúsculas cada palabra mientras lo hacemos, por lo que 'last_visited_at' se convertirá en 'Last Visited At'."
+msgstr "Para hacer que los nombres de tablas y campos sean más amigables para los humanos, VaypolBI reemplazará los guiones y guiones bajos con espacios. Pondremos en mayúsculas cada palabra mientras lo hacemos, por lo que 'last_visited_at' se convertirá en 'Last Visited At'."
 
 #: metabase/models/params.clj:38
 msgid ":parameters must be a sequence of maps with :id and :type keys"
@@ -24522,7 +24522,7 @@ msgstr "Dínos dónde encontrar el archivo para cada peso de fuente. No es neces
 
 #: metabase/public_settings.clj:179
 msgid "The default language for all users across the Metabase UI, system emails, pulses, and alerts. Users can individually override this default language from their own account settings."
-msgstr "El idioma predeterminado para todos los usuarios en la interfaz de usuario de Metabase, correos electrónicos del sistema, pulsos y alertas. Los usuarios pueden elegir individualmente este idioma predeterminado desde la configuración de su propia cuenta."
+msgstr "El idioma predeterminado para todos los usuarios en la interfaz de usuario de VaypolBI, correos electrónicos del sistema, pulsos y alertas. Los usuarios pueden elegir individualmente este idioma predeterminado desde la configuración de su propia cuenta."
 
 #: metabase/public_settings.clj:693
 msgid "Whether an introductory modal should be shown after the next database connection is added. Defaults to false if any non-default database has already finished syncing for this instance."
@@ -26047,7 +26047,7 @@ msgstr "La base de datos requerida de {0} ha cambiado de ''{1}'' a ''{2}''."
 
 #: metabase/task.clj:168
 msgid "Metabase task scheduler disabled. Scheduled tasks will not be ran."
-msgstr "El programador de tareas de la metabase está deshabilitado. Las tareas programadas no se ejecutarán."
+msgstr "El programador de tareas de la VaypolBI está deshabilitado. Las tareas programadas no se ejecutarán."
 
 #: metabase/util/schema.clj:148
 msgid "value must be a map with schema: (\n"
@@ -26061,7 +26061,7 @@ msgstr "{0} (opcional)"
 
 #: metabase_enterprise/advanced_config/file.clj:164
 msgid "Found config file at path {0}; Metabase will be initialized with values from this file"
-msgstr "Archivo de configuración encontrado en la ruta {0}; Metabase se inicializará con valores de este archivo"
+msgstr "Archivo de configuración encontrado en la ruta {0}; VaypolBI se inicializará con valores de este archivo"
 
 #: metabase_enterprise/advanced_config/file.clj:265
 msgid "Done initializing from file."
@@ -26125,7 +26125,7 @@ msgstr "ID(s) de colección no válidos. Estas colecciones no existen: {0}"
 
 #: metabase_enterprise/serialization/cmd.clj:95
 msgid "Loading serialized Metabase files from {0}"
-msgstr "Cargando archivos de Metabase serializados desde {0}"
+msgstr "Cargando archivos de VaypolBI serializados desde {0}"
 
 #: metabase_enterprise/serialization/v2/entity_ids.clj:68
 msgid "{0} tables have entity_id; expected to resolve the same number of models, but only got {1}"
@@ -26359,11 +26359,11 @@ msgstr "Error al reducir las filas de resultados: {0}"
 
 #: metabase/sample_data.clj:63
 msgid "Sample database could not be extracted to the plugins directory,which may result in slow startup times. Please set MB_PLUGINS_DIR to a writable directory and restart Metabase."
-msgstr "La base de datos de muestra no ha podido ser extraída al directorio de plugins, lo que puede dar lugar a tiempos de arranque lentos. Por favor, establezca MB_PLUGINS_DIR en un directorio con capacidad de escritura y reinicie Metabase."
+msgstr "La base de datos de muestra no ha podido ser extraída al directorio de plugins, lo que puede dar lugar a tiempos de arranque lentos. Por favor, establezca MB_PLUGINS_DIR en un directorio con capacidad de escritura y reinicie VaypolBI."
 
 #: metabase_enterprise/advanced_config/file.clj:261
 msgid "Metabase config files require a Premium token with the :advanced-config feature."
-msgstr "Los archivos de configuración de Metabase requieren un token de un plan Premium con la función :advanced-config."
+msgstr "Los archivos de configuración de VaypolBI requieren un token de un plan Premium con la función :advanced-config."
 
 #: 
 msgctxt "This is in the sidebar when creating or editing a dashboard subscription."
@@ -26419,11 +26419,11 @@ msgstr "Las membresías de usuarios de este grupo ya no se sincronizará con el 
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget/DeleteGroupMappingModal/DeleteGroupMappingModal.tsx:62
 msgid "What should happen with the groups themselves in Metabase?"
-msgstr "¿Qué debería pasar con los grupos mismos en Metabase?"
+msgstr "¿Qué debería pasar con los grupos mismos en VaypolBI?"
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget/DeleteGroupMappingModal/DeleteGroupMappingModal.tsx:63
 msgid "What should happen with the group itself in Metabase?"
-msgstr "¿Qué debería pasar con el grupo en Metabase?"
+msgstr "¿Qué debería pasar con el grupo en VaypolBI?"
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget/DeleteGroupMappingModal/DeleteGroupMappingModal.tsx:68
 msgid "Remove this group mapping?"
@@ -26455,7 +26455,7 @@ msgstr "Sincroniza Membresía de Grupo"
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget/GroupMappingsWidget.jsx:118
 msgid "Mappings allow Metabase to automatically add and remove users from groups based on the membership information provided by the directory server. If a group isn‘t mapped, its membership won‘t be synced."
-msgstr "Las asignaciones permiten que Metabase agregue y elimine automáticamente usuarios de grupos en función de la información de membresía proporcionada por el servidor de directorio. Si un grupo no está asignado, su membresía no se sincronizará."
+msgstr "Las asignaciones permiten que VaypolBI agregue y elimine automáticamente usuarios de grupos en función de la información de membresía proporcionada por el servidor de directorio. Si un grupo no está asignado, su membresía no se sincronizará."
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget/GroupMappingsWidget.jsx:123
 msgid "About mappings"
@@ -26619,7 +26619,7 @@ msgstr "Esta tarjeta no admite asignaciones de clics"
 
 #: frontend/src/metabase/databases/components/DatabaseCacheScheduleField/DatabaseCacheScheduleField.tsx:88
 msgid "When a user adds a new filter to a dashboard or a SQL question, Metabase will scan the field(s) mapped to that filter in order to show the list of selectable values."
-msgstr "Cuando un usuario agrega un nuevo filtro a un tablero o una pregunta de SQL, Metabase escaneará los campos asignados a ese filtro para mostrar la lista de valores seleccionables."
+msgstr "Cuando un usuario agrega un nuevo filtro a un tablero o una pregunta de SQL, VaypolBI escaneará los campos asignados a ese filtro para mostrar la lista de valores seleccionables."
 
 #: frontend/src/metabase/models/containers/FormModelPicker/FormModelPicker.tsx:25
 msgid "Select a model"
@@ -27195,11 +27195,11 @@ msgstr "Error preparando comando: {0}"
 
 #: metabase/driver/util.clj:331
 msgid "Comma separated names of {0} that should NOT appear in Metabase"
-msgstr "Nombres separados por comas de {0} que NO deberían aparecer en Metabase"
+msgstr "Nombres separados por comas de {0} que NO deberían aparecer en VaypolBI"
 
 #: metabase/driver/util.clj:324
 msgid "Comma separated names of {0} that should appear in Metabase"
-msgstr "Nombres separados por comas de {0} que deberían aparecer en Metabase"
+msgstr "Nombres separados por comas de {0} que deberían aparecer en VaypolBI"
 
 #: metabase/driver/util.clj:326 metabase/driver/util.clj:333
 msgid "You can use patterns like \"auth*\" to match multiple {0}"
@@ -27301,7 +27301,7 @@ msgstr "No se ha encontrado un usuario actual."
 
 #: frontend/src/metabase/dashboard/components/ClickBehaviorSidebar/utils.ts:30
 msgid "Open the Metabase drill-through menu"
-msgstr "Abrir el menú Metabase drill-through"
+msgstr "Abrir el menú VaypolBI drill-through"
 
 #: frontend/src/metabase/query_builder/components/expressions/ExpressionWidget.tsx:88
 msgid "Expression"
@@ -27470,13 +27470,13 @@ msgstr "¿Cansado de gestionar manualmente personas y grupos?"
 
 #: frontend/src/metabase/admin/people/components/NudgeToPro.tsx:16
 msgid "Get single-sign on (SSO) via SAML, JWT, or LDAP with Metabase Pro"
-msgstr "Obtén inicio de sesión único (SSO) a través de SAML, JWT o LDAP con Metabase Pro"
+msgstr "Obtén inicio de sesión único (SSO) a través de SAML, JWT o LDAP con VaypolBI Pro"
 
 #: frontend/src/metabase/admin/permissions/components/ApplicationPermissionsHelp/ApplicationPermissionsHelp.tsx:11
 #: frontend/src/metabase/admin/permissions/components/CollectionPermissionsHelp/CollectionPermissionsHelp.tsx:12
 #: frontend/src/metabase/admin/permissions/components/DataPermissionsHelp/DataPermissionsHelp.tsx:22
 msgid "People can be members of multiple groups, and Metabase grants them the most permissive level of access across all of a person's groups."
-msgstr "Las personas pueden ser miembros de varios grupos y Metabase les otorga el nivel de acceso más permisivo en todos los grupos de una persona."
+msgstr "Las personas pueden ser miembros de varios grupos y VaypolBI les otorga el nivel de acceso más permisivo en todos los grupos de una persona."
 
 #: frontend/src/metabase/admin/permissions/components/DataPermissionsHelp/DataPermissionsHelp.tsx:37
 msgid "The group can use the query builder to ask questions of any table in the database."
@@ -27492,7 +27492,7 @@ msgstr "Suplantado (Pro)"
 
 #: frontend/src/metabase/admin/permissions/components/DataPermissionsHelp/DataPermissionsHelp.tsx:52
 msgid "Impersonation associates a Metabase group with database-defined roles and their privileges. Metabase queries made by this group will respect the grants given to the database roles. You can use impersonation to give a group access to the native/SQL editor, while restricting the group's access to data based on a specific database role."
-msgstr "La suplantación asocia un grupo de Metabase con roles definidos por la base de datos y sus privilegios. Las consultas realizadas por este grupo respetarán las concesiones otorgadas a los roles de la base de datos. Puede usar la suplantación para dar acceso a un grupo al editor nativo/SQL, mientras restringe el acceso del grupo a los datos en función de una función de base de datos específica."
+msgstr "La suplantación asocia un grupo de VaypolBI con roles definidos por la base de datos y sus privilegios. Las consultas realizadas por este grupo respetarán las concesiones otorgadas a los roles de la base de datos. Puede usar la suplantación para dar acceso a un grupo al editor nativo/SQL, mientras restringe el acceso del grupo a los datos en función de una función de base de datos específica."
 
 #: frontend/src/metabase/admin/permissions/components/DataPermissionsHelp/DataPermissionsHelp.tsx:59
 msgid "The group can't use the query builder or drill through existing questions. They also can't see the data in the Browse data section. They can still view questions based on this data, if they have permissions to the relevant collection."
@@ -27576,7 +27576,7 @@ msgstr "{0} sobre los permisos de colección"
 
 #: frontend/src/metabase/collections/components/CollectionHeader/CollectionUploadInfoModal.tsx:26
 msgid "Uploads CSVs to Metabase"
-msgstr "Subir CSVs a Metabase"
+msgstr "Subir CSVs a VaypolBI"
 
 #: frontend/src/metabase/collections/components/CollectionHeader/CollectionUploadInfoModal.tsx:31
 msgid "Team members will be able to upload CSV files and work with them just like any other data source"
@@ -27736,7 +27736,7 @@ msgstr "Barra de navegación"
 
 #: frontend/src/metabase/nav/components/DatabasePromptBanner/DatabasePromptBanner.tsx:32
 msgid "Connect to your database to get the most from Metabase."
-msgstr "Conéctate a tu base de datos para aprovechar Metabase al máximo."
+msgstr "Conéctate a tu base de datos para aprovechar VaypolBI al máximo."
 
 #: frontend/src/metabase/nav/components/DatabasePromptBanner/DatabasePromptBanner.tsx:39
 msgid "Get help connecting"
@@ -27854,7 +27854,7 @@ msgstr "Permisos aplicación"
 
 #: frontend/src/metabase/admin/permissions/components/ApplicationPermissionsHelp/ApplicationPermissionsHelp.tsx:16
 msgid "Application settings are useful for granting groups access to some, but not all, of Metabase’s administrative features."
-msgstr "La configuración de la aplicación es útil para otorgar acceso a los grupos a algunas, pero no a todas, las funciones administrativas de Metabase."
+msgstr "La configuración de la aplicación es útil para otorgar acceso a los grupos a algunas, pero no a todas, las funciones administrativas de VaypolBI."
 
 #: frontend/src/metabase/admin/permissions/components/ApplicationPermissionsHelp/ApplicationPermissionsHelp.tsx:18
 msgid "{0} the group can access the Settings tab in the Admin panel."
@@ -28147,7 +28147,7 @@ msgstr "Asignar un atributo de usuario a los roles de la base de datos"
 
 #: enterprise/frontend/src/metabase-enterprise/advanced_permissions/components/ImpersonationModal/ImpersonationModalView.tsx:77
 msgid "When the person runs a query (including native queries), Metabase will impersonate the privileges of the database role you associate with the user attribute."
-msgstr "Cuando un usuario ejecuta una consulta (incluidas las consultas nativas), Metabase suplantará los privilegios de base de datos con los que asocies con el atributo de usuario."
+msgstr "Cuando un usuario ejecuta una consulta (incluidas las consultas nativas), VaypolBI suplantará los privilegios de base de datos con los que asocies con el atributo de usuario."
 
 #: enterprise/frontend/src/metabase-enterprise/advanced_permissions/components/ImpersonationModal/ImpersonationModalView.tsx:81
 msgid "Learn More"
@@ -28163,11 +28163,11 @@ msgstr "Editar la configuración del usuario"
 
 #: enterprise/frontend/src/metabase-enterprise/advanced_permissions/components/ImpersonationWarning/ImpersonationWarning.tsx:19
 msgid "Make sure the main database credential has access to everything different user groups may need access to. It's what Metabase uses to sync table information."
-msgstr "Asegúrate de que la credencial de la base de datos principal tenga acceso a todo lo que los diferentes grupos de usuarios puedan necesitar. Es lo que usa Metabase para sincronizar la información de la tabla."
+msgstr "Asegúrate de que la credencial de la base de datos principal tenga acceso a todo lo que los diferentes grupos de usuarios puedan necesitar. Es lo que usa VaypolBI para sincronizar la información de la tabla."
 
 #: enterprise/frontend/src/metabase-enterprise/advanced_permissions/components/ImpersonationWarning/ImpersonationWarning.tsx:20
 msgid "{0} is the database user Metabase is using to connect to {1}. Make sure that {2} has access to everything in {3} that all Metabase groups may need access to, as that database user account is what Metabase uses to sync table information."
-msgstr "{0} es el usuario de la base de datos que Metabase está usando para conectarse a {1}. Asegúrate de que {2} tenga acceso a todo en {3} a lo que todos los grupos de Metabase puedan necesitar acceso, ya que esa cuenta de usuario de base de datos es lo que Metabase usa para sincronizar la información de la tabla."
+msgstr "{0} es el usuario de la base de datos que VaypolBI está usando para conectarse a {1}. Asegúrate de que {2} tenga acceso a todo en {3} a lo que todos los grupos de VaypolBI puedan necesitar acceso, ya que esa cuenta de usuario de base de datos es lo que VaypolBI usa para sincronizar la información de la tabla."
 
 #: enterprise/frontend/src/metabase-enterprise/advanced_permissions/components/ImpersonationWarning/ImpersonationWarning.tsx:28
 msgid "Edit settings"
@@ -28283,7 +28283,7 @@ msgstr "Ninguna de tus bases de datos es compatible con esta versión de la func
 
 #: frontend/src/metabase/admin/settings/components/UploadSettings/UploadSettings.tsx:297
 msgid "Metabase currently supports {0} for uploads and needs a connection with write privileges."
-msgstr "Metabase actualmente admite {0} para cargas y necesita una conexión con privilegios de escritura."
+msgstr "VaypolBI actualmente admite {0} para cargas y necesita una conexión con privilegios de escritura."
 
 #: frontend/src/metabase/admin/settings/components/UploadSettings/UploadSettings.tsx:298
 msgid "Postgres, MySQL, and H2"
@@ -28454,7 +28454,7 @@ msgstr "\"{0}\""
 
 #: metabase/core.clj:147
 msgid "Metabase Initialization COMPLETE in {0}"
-msgstr "Inicialización de Metabase COMPLETA en {0}"
+msgstr "Inicialización de VaypolBI COMPLETA en {0}"
 
 #: metabase/driver/bigquery_cloud_sdk.clj:177
 msgid "Warning: missing type mapping for parsing BigQuery results column {0} of type {1}."
@@ -28482,7 +28482,7 @@ msgstr "Lo siento, la fila que intentas actualizar no existe"
 
 #: metabase/driver/sql_jdbc/execute.clj:284
 msgid "{0} is deprecated in Metabase 0.47.0. Implement {1} instead."
-msgstr "{0} está en desuso en Metabase 0.47.0. Implementa {1} en su lugar."
+msgstr "{0} está en desuso en VaypolBI 0.47.0. Implementa {1} en su lugar."
 
 #: metabase/events/view_log.clj:29
 msgid "List of the 10 most recently viewed items for the user."
@@ -28954,7 +28954,7 @@ msgstr "Exportación a {0} completo!"
 
 #: metabase_enterprise/serialization/cmd.clj:205
 msgid "Exporting Metabase to {0}"
-msgstr "Exportando Metabase a {0}"
+msgstr "Exportando VaypolBI a {0}"
 
 #: metabase_enterprise/serialization/v2/load.clj:80
 msgid "Error importing {0}. Continuing..."
@@ -29091,7 +29091,7 @@ msgstr "Detalles del error de carga"
 
 #: frontend/src/metabase/home/components/CustomHomePageModal/CustomHomePageModal.tsx:108
 msgid "Pick a dashboard to serve as the homepage. If people lack permissions to view the selected dashboard, Metabase will redirect them to the default homepage. You can update or reset the homepage at any time in Admin Settings > Settings > General."
-msgstr "Elige un tablero para que sirva como página de inicio. Si las personas no tienen permisos para ver el tablero seleccionado, Metabase los redirigirá a la página de inicio predeterminada. Puedes actualizar o restablecer la página de inicio en cualquier momento en Configuración de administrador > Configuración > General."
+msgstr "Elige un tablero para que sirva como página de inicio. Si las personas no tienen permisos para ver el tablero seleccionado, VaypolBI los redirigirá a la página de inicio predeterminada. Puedes actualizar o restablecer la página de inicio en cualquier momento en Configuración de administrador > Configuración > General."
 
 #: frontend/src/metabase/redux/uploads.ts:68
 msgid "You cannot upload files larger than {0}mb"
@@ -29099,7 +29099,7 @@ msgstr "No puedes cargar archivos de más de {0}mb"
 
 #: metabase/public_settings.clj:104
 msgid "Pick a dashboard to serve as the homepage. If people lack permissions to view the selected dashboard, Metabase will redirect them to the default homepage."
-msgstr "Elija un tablero para que sirva como página de inicio. Si las personas no tienen permisos para ver el tablero seleccionado, Metabase los redirigirá a la página de inicio predeterminada."
+msgstr "Elija un tablero para que sirva como página de inicio. Si las personas no tienen permisos para ver el tablero seleccionado, VaypolBI los redirigirá a la página de inicio predeterminada."
 
 #: metabase/public_settings.clj:355
 msgid "{0} will cache all saved questions with an average query execution time longer than this many seconds:"
@@ -29221,11 +29221,11 @@ msgstr "Incrustación interactiva"
 
 #: frontend/src/metabase/admin/settings/selectors.js:507
 msgid "With this Pro/Enterprise feature, you can let your customers query, visualize, and drill-down on their data with the full functionality of Metabase in your app or website, complete with your branding. Set permissions with SSO, down to the row- or column-level, so people only see what they need to."
-msgstr "Con esta función Pro/Enterprise, puede permitir que sus clientes consulten, visualicen y desglosen sus datos con la funcionalidad completa de Metabase en su aplicación o sitio web, con su propia marca. Establezca permisos con SSO, hasta el nivel de fila o columna, para que los usuarios solo vean lo que necesitan."
+msgstr "Con esta función Pro/Enterprise, puede permitir que sus clientes consulten, visualicen y desglosen sus datos con la funcionalidad completa de VaypolBI en su aplicación o sitio web, con su propia marca. Establezca permisos con SSO, hasta el nivel de fila o columna, para que los usuarios solo vean lo que necesitan."
 
 #: frontend/src/metabase/admin/settings/components/widgets/FullAppEmbeddingLinkWidget/FullAppEmbeddingLinkWidget.tsx:14
 msgid "With {0} you can embed the full Metabase app to allow people to drill-through to charts, browse collections, and use the graphical query builder. You can also get priority support, more tools to help you share your insights with your teams and powerful options to help you create seamless, interactive data experiences for your customers."
-msgstr "Con {0} puede incrustar la aplicación Metabase completa para que los usuarios puedan acceder a gráficos, explorar colecciones y utilizar el generador de consultas gráficas. También puede obtener soporte prioritario, más herramientas para ayudarle a compartir sus conocimientos con sus equipos y potentes opciones para ayudarle a crear experiencias de datos interactivas y fluidas para sus clientes."
+msgstr "Con {0} puede incrustar la aplicación VaypolBI completa para que los usuarios puedan acceder a gráficos, explorar colecciones y utilizar el generador de consultas gráficas. También puede obtener soporte prioritario, más herramientas para ayudarle a compartir sus conocimientos con sus equipos y potentes opciones para ayudarle a crear experiencias de datos interactivas y fluidas para sus clientes."
 
 #: metabase/analytics/prometheus.clj:210
 msgid "Number of emails sent."
@@ -29290,7 +29290,7 @@ msgstr "El ajuste {0} no está activado"
 
 #: metabase/public_settings/premium_features.clj:258
 msgid "{0} is a paid feature not currently available to your instance. Please upgrade to use it. Learn more at metabase.com/upgrade/"
-msgstr "{0} es una función de pago no disponible actualmente en su instancia. Actualícela para poder utilizarla. Más información en metabase.com/upgrade/"
+msgstr "{0} es una función de pago no disponible actualmente en su instancia. Actualícela para poder utilizarla. Más información en VaypolBI.com/upgrade/"
 
 #: metabase/setup.clj:47
 msgid "Cannot set `has-user-setup`."
@@ -29298,11 +29298,11 @@ msgstr "No se puede establecer `has-user-setup`."
 
 #: metabase/setup.clj:41
 msgid "A value that is true iff the metabase instance has one or more users registered."
-msgstr "Un valor que es verdadero si la instancia de metabase tiene uno o más usuarios registrados."
+msgstr "Un valor que es verdadero si la instancia de VaypolBI tiene uno o más usuarios registrados."
 
 #: metabase_enterprise/advanced_config/file.clj:261
 msgid "Metabase config files require a Premium token with the :config-text-file feature."
-msgstr "Los archivos de configuración de Metabase requieren un token Premium con la función :config-text-file."
+msgstr "Los archivos de configuración de VaypolBI requieren un token Premium con la función :config-text-file."
 
 #: metabase_enterprise/advanced_config/models/pulse_channel.clj:10
 msgid "Allowed email address domain(s) for new Dashboard Subscriptions and Alerts. To specify multiple domains, separate each domain with a comma, with no space in between. To allow all domains, leave the field empty. This setting doesn’t affect existing subscriptions."
@@ -29517,7 +29517,7 @@ msgstr "{0} se ha conectado automáticamente con filtros con el mismo campo."
 
 #: frontend/src/metabase/nav/components/WhatsNewNotification/WhatsNewNotification.tsx:65
 msgid "Metabase has been updated"
-msgstr "Metabase ha sido actualizado"
+msgstr "VaypolBI ha sido actualizado"
 
 #: frontend/src/metabase/nav/components/WhatsNewNotification/WhatsNewNotification.tsx:75
 msgid "See what's new"
@@ -29720,7 +29720,7 @@ msgstr "Estricto (no recomendado)"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/index.js:47
 msgid "Never allows cookies to be sent on a cross-site request. Warning: this will prevent users from following external links to Metabase."
-msgstr "Nunca permite que se envíen cookies en una solicitud entre sitios. Advertencia: esto evitará que los usuarios sigan enlaces externos a Metabase."
+msgstr "Nunca permite que se envíen cookies en una solicitud entre sitios. Advertencia: esto evitará que los usuarios sigan enlaces externos a VaypolBI."
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/index.js:52
 msgid "Allows all cross-site requests. Incompatible with most Safari and iOS-based browsers."
@@ -29856,7 +29856,7 @@ msgstr "Pastel"
 
 #: enterprise/frontend/src/metabase-enterprise/audit_app/components/OpenInMetabase.jsx:9
 msgid "Open in Metabase"
-msgstr "Abrir en Metabase"
+msgstr "Abrir en VaypolBI"
 
 #: enterprise/frontend/src/metabase-enterprise/audit_app/containers/AuditApp.jsx:35
 msgid "This Audit section has been upgraded to the\n"
@@ -29868,7 +29868,7 @@ msgstr "Esta sección de Auditoría se ha actualizado a la\n"
 
 #: enterprise/frontend/src/metabase-enterprise/audit_app/containers/AuditApp.jsx:42
 msgid "Metabase Analytics Collection"
-msgstr "Colección de Análisis de Metabase"
+msgstr "Colección de Análisis de VaypolBI"
 
 #: enterprise/frontend/src/metabase-enterprise/audit_app/containers/AuditApp.jsx:48
 msgid "It's now easier to explore and to give others\n"
@@ -29928,7 +29928,7 @@ msgstr "Configuración de cookies SameSite"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/components/EmbeddingAppSameSiteCookieDescription/EmbeddingAppSameSiteCookieDescription.tsx:32
 msgid "Determines whether or not cookies are allowed to be sent on cross-site requests. You’ll likely need to change this to None if your embedding application is hosted under a different domain than Metabase. Otherwise, leave it set to Lax, as it's more secure."
-msgstr "Determina si se permite o no el envío de cookies en solicitudes entre sitios. Probablemente necesitarás cambiar esto a Ninguno si tu aplicación de inserción está alojada en un dominio diferente al de Metabase. De lo contrario, déjelo configurado en Lax, ya que es más seguro."
+msgstr "Determina si se permite o no el envío de cookies en solicitudes entre sitios. Probablemente necesitarás cambiar esto a Ninguno si tu aplicación de inserción está alojada en un dominio diferente al de VaypolBI. De lo contrario, déjelo configurado en Lax, ya que es más seguro."
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/components/EmbeddingAppSameSiteCookieDescription/EmbeddingAppSameSiteCookieDescription.tsx:33
 msgid "If you set this to None, you'll have to use HTTPS (unless you're just embedding locally), or browsers will reject the request. {0}"
@@ -30362,7 +30362,7 @@ msgstr "el valor debe ser una cadena de programación cron de Quartz válida."
 
 #: metabase/util/cron.clj:50
 msgid "value must be a valid schedule map. See schema in metabase.util.cron for details."
-msgstr "el valor debe ser un mapa de programación válido. Consulta el esquema en metabase.util.cron para obtener más detalles."
+msgstr "el valor debe ser un mapa de programación válido. Consulta el esquema en VaypolBI.util.cron para obtener más detalles."
 
 #: metabase_enterprise/advanced_permissions/driver/impersonation.clj:101
 msgid "Connection impersonation is enabled for this database, but no default role is found"
